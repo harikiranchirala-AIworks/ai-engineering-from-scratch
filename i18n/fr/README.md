@@ -22,7 +22,7 @@
 
 <p align="center">
   <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT License"></a>
-  <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-523-3553ff?style=flat-square&labelColor=fafaf5" alt="523 lessons"></a>
+  <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-524-3553ff?style=flat-square&labelColor=fafaf5" alt="524 lessons"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 phases"></a>
   <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub stars"></a>
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Website"></a>
@@ -36,7 +36,8 @@
 
 > **84 % des étudiants utilisent déjà des outils d'IA. Seuls 18 % se sentent prêts à les utiliser de façon professionnelle.** Ce cursus comble cet écart.
 >
-> 523 leçons. 20 phases. ~342 heures. Python, TypeScript, Rust, Julia. Chaque leçon livre un artefact réutilisable : un prompt, une skill, un agent, un serveur MCP. Gratuit, open source, MIT.
+> 524 lessons. 20 phases. ~342 hours. Python, TypeScript, Rust, Julia. Every lesson ships
+> a reusable artifact: a prompt, a skill, an agent, an MCP server. Free, open source, MIT.
 >
 > Vous n'apprenez pas seulement l'IA. Vous la construisez. De bout en bout. À la main.
 
@@ -174,7 +175,7 @@ flashy agent demo somewhere else. The pieces rarely line up. You ship a chatbot 
 explain its loss curve. You hook a function to an agent but can't say what attention does
 inside the model that's calling it.
 
-This curriculum is the spine. 20 phases, 523 lessons, four languages: Python, TypeScript,
+This curriculum is the spine. 20 phases, 524 lessons, four languages: Python, TypeScript,
 Rust, Julia. Linear algebra at one end, autonomous swarms at the other. Every algorithm
 gets built from raw math first. Backprop. Tokenizer. Attention. Agent loop. By the time
 PyTorch shows up, you already know what it's doing under the hood.
@@ -394,7 +395,7 @@ Other curricula end with *"congratulations, you learned X."* Each lesson here en
 </table>
 
 > Install the lot with `python3 scripts/install_skills.py <target>`. Real tools, not homework.
-> By the end of the curriculum, you have a portfolio of 523 artifacts you actually
+> By the end of the curriculum, you have a portfolio of 524 artifacts you actually
 > understand because you built them.
 
 ### FIG_002 · A worked sample
@@ -1220,7 +1221,7 @@ npx skills add rohitg00/ai-engineering-from-scratch
 `.claude/skills/`, `.cursor/skills/`, `.codex/skills/`, or another supported
 skills folder. Verify that the selected host discovers that exact destination.
 
-**The lesson artifacts.** The repo ships 396 skills and 99 prompts under
+**The lesson artifacts.** The repo ships 397 skills and 99 prompts under
 `phases/**/outputs/`; install them via `scripts/install_skills.py`. Requires
 cloning the repo. Supports tag filters, dry-runs, and per-agent layouts:
 
@@ -1403,7 +1404,8 @@ relative links inside lesson docs.
 
 ## Soutenir le projet
 
-Gratuit, sous licence MIT, 523 leçons. Merci aux sponsors et aux soutiens qui rendent ce travail possible. [Voir tous les sponsors et soutiens](../../BACKERS.md).
+Free, MIT-licensed, 524 lessons. Thank you to the sponsors and backers who make the work possible.
+[See all sponsors and backers](../../BACKERS.md).
 
 Vous souhaitez soutenir le projet ? Consultez les [options de sponsoring](../../SPONSORS.md), notamment le [sponsoring matériel](../../SPONSORS.md#hardware-lab-partner), ou [soutenez le projet sur GitHub](https://github.com/sponsors/rohitg00).
 
