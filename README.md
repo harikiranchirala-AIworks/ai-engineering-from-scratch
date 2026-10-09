@@ -45,24 +45,59 @@
 <p align="center"><sub><b>114,584</b> readers &nbsp;·&nbsp; <b>181,995</b> page views in the last 30 days &nbsp;·&nbsp; as of 2026-08-29</sub></p>
 <!-- STATS:END -->
 
-## ⚡ AI Prompt2Prod & Interactive Learning Platform
+## 🌟 Free AI Engineering Mastery — Learn From Scratch to Production
 
-In addition to the 524 first-principles lessons, this repository includes the **AI Prompt2Prod Interactive Learning Hub**:
-- **Zero-Install Offline App**: Double click [`standalone/genai_learning_hub.html`](standalone/genai_learning_hub.html) to open the interactive mastery dashboard in any browser immediately (no server or install needed).
-- **Fullstack React 19 App**: Live AI streaming tutor, Leitner 5-box spaced repetition flashcards, RAG playground, role roadmaps, and AI mock interview scorecard generator under [`frontend/`](frontend/).
-- **FastAPI Backend**: Streaming AI tutor, explanation, and TTS speech services under [`backend/`](backend/).
+Welcome! This entire repository is **100% free and open-source (MIT Licensed)**. Whether you are a student, software engineer, or AI enthusiast, you can master everything from fundamental linear algebra to production multi-agent swarms.
 
-### Quickstart Interactive Hub:
+👉 **New here? Read the [Free Learner & Study Guide (GETTING_STARTED.md)](GETTING_STARTED.md)** for detailed walkthroughs.
+
+---
+
+### 🚀 3 Ways to Learn Right Now
+
+#### 1. Instant Interactive Web App (Zero Install / Offline)
+* Simply open **[`genai_learning_hub.html`](genai_learning_hub.html)** (or [`standalone/genai_learning_hub.html`](standalone/genai_learning_hub.html)) in **Chrome**, **Edge**, or **Firefox**.
+* **Features**:
+  * 🌌 **20 Phases Universe Explorer**: Browse and search all 524 first-principles lessons.
+  * 🔬 **Interactive AI Labs**: Live RAG Pipeline simulator, LangGraph multi-agent builder, GPU VRAM sizing calculator, and Self-Attention heatmap.
+  * 📚 **11 Production Engineering Modules (833 Topics)** with audio text-to-speech read-aloud.
+  * 🗂️ **5-Box Leitner Spaced Repetition Flashcards** and **Timed AI Mock Interviewer**.
+
+#### 2. First-Principles Code Labs (524 Lessons in 20 Phases)
+Run deterministic, framework-free math & neural network code directly from your terminal:
 ```bash
-# Option 1: Instant Offline (Zero dependencies)
-# Just open standalone/genai_learning_hub.html in your browser!
+# Clone the repository
+git clone https://github.com/harikiranchirala-AIworks/ai-engineering-from-scratch.git
+cd ai-engineering-from-scratch
 
-# Option 2: Fullstack Web App
-# Backend:
+# Run vector operations lab from scratch
+python phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
+
+# Run backpropagation engine from scratch
+python phases/03-deep-learning-core/01-autograd/code/main.py
+
+# Run unit tests
+python -m unittest discover phases/01-math-foundations/01-linear-algebra-intuition/code/tests/ -v
+```
+
+#### 3. Fullstack React 19 + FastAPI Platform
+```bash
+# Terminal 1: AI Backend (FastAPI)
 cd backend && pip install -r requirements.txt && uvicorn server:app --reload --port 8000
-# Frontend:
+
+# Terminal 2: Interactive Frontend (React 19)
 cd frontend && npm install && npm start
 ```
+
+---
+
+### 📚 PDF Architecture Guides & Interview Cheat Sheets
+Check the **[`pdfs/`](pdfs/)** directory for comprehensive downloadable blueprints including:
+* 📘 `The complete AI Agentic interview Guide.pdf`
+* 📘 `Gen AI_AI Engineer Complete Blueprint 2026.pdf`
+* 📘 `CCAR-F.pdf` (Anthropic Claude Certified Architect Study Guide)
+* 📘 `Model Routing & AI Gateways.pdf`
+* 📘 `AI Chunking.pdf` & `LLM Security Issues.pdf`
 
 ---
 
