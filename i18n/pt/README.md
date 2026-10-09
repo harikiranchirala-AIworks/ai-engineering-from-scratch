@@ -45,6 +45,27 @@
 <p align="center"><sub><b>114,584</b> readers &nbsp;·&nbsp; <b>181,995</b> page views in the last 30 days &nbsp;·&nbsp; as of 2026-08-29</sub></p>
 <!-- STATS:END -->
 
+## ⚡ AI Prompt2Prod & Interactive Learning Platform
+
+In addition to the 524 first-principles lessons, this repository includes the **AI Prompt2Prod Interactive Learning Hub**:
+- **Zero-Install Offline App**: Double click [`standalone/genai_learning_hub.html`](../../standalone/genai_learning_hub.html) to open the interactive mastery dashboard in any browser immediately (no server or install needed).
+- **Fullstack React 19 App**: Live AI streaming tutor, Leitner 5-box spaced repetition flashcards, RAG playground, role roadmaps, and AI mock interview scorecard generator under [`frontend/`](../../frontend/).
+- **FastAPI Backend**: Streaming AI tutor, explanation, and TTS speech services under [`backend/`](../../backend/).
+
+### Quickstart Interactive Hub:
+```bash
+# Option 1: Instant Offline (Zero dependencies)
+# Just open standalone/genai_learning_hub.html in your browser!
+
+# Option 2: Fullstack Web App
+# Backend:
+cd backend && pip install -r requirements.txt && uvicorn server:app --reload --port 8000
+# Frontend:
+cd frontend && npm install && npm start
+```
+
+---
+
 ## Comece aqui: escolha o que você quer construir
 
 Você não precisa percorrer 523 lições antes de começar. Escolha um objetivo. Cada link abre o mesmo currículo no GitHub ou no site, e as duas versões usam o mesmo código das lições.
