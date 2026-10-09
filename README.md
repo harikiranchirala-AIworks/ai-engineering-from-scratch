@@ -75,43 +75,24 @@ Check the **[`pdfs/`](pdfs/)** directory for comprehensive downloadable blueprin
 
 ---
 
-## Start here: choose what you want to build
+## 🎯 Start Here: Choose What You Want to Build
 
-You do not need to scan 523 lessons before beginning. Pick one goal. Each link
-opens the same curriculum on GitHub or the website, and both versions use the
-same lesson code.
+You do not need to scan all 524 lessons before beginning. Pick one goal and jump straight in:
 
-| Your goal | Learn on GitHub | Learn on the website |
+| Your Goal | Explore in Repository | Interactive Lab / Web Path |
 |---|---|---|
-| I am new and want the complete foundation | [Phase 0: Setup and Tooling](phases/00-setup-and-tooling/) | [Dev Environment](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| I know Python and want math plus ML foundations | [Phase 1: Math Foundations](phases/01-math-foundations/) | [Linear Algebra Intuition](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| I want to build production LLM applications | [Phase 11: LLM Engineering](phases/11-llm-engineering/) | [Prompt Engineering](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| I want to build agents | [Phase 14: Agent Engineering](phases/14-agent-engineering/) | [The Agent Loop](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| I want to use coding agents on real repositories | [Agent-Assisted Engineering path](learning-paths/using-coding-agents.json) | [Agent-Assisted Engineering](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| I want to shape the right build before implementation | [Product Judgment and Delivery path](learning-paths/shaping-the-build.json) | [Product Judgment and Delivery](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
-| I want to build with Model Context Protocol (MCP) | [Model Context Protocol (MCP) route](phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol (MCP) path](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| I want to write and ship Agent Skills | [Focused Agent Skills route](phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skills path](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| I want to prepare for a Claude certification | [Certification onboarding](certifications/claude/GETTING_STARTED.md) | [Certification Academy](https://aiengineeringfromscratch.com/certifications.html) |
-| I want to prepare for the MCP Associate (MCPA) | [MCPA onboarding](certifications/mcpa/GETTING_STARTED.md) | [MCPA track](https://aiengineeringfromscratch.com/certification?id=mcpa-f) |
+| I am new and want complete foundations | [Phase 00: Setup and Tooling](phases/00-setup-and-tooling/) | [Dev Environment Lab](phases/00-setup-and-tooling/01-dev-environment/) |
+| I know Python and want math & ML foundations | [Phase 01: Math Foundations](phases/01-math-foundations/) | [Linear Algebra Lab](phases/01-math-foundations/01-linear-algebra-intuition/) |
+| I want to build production LLM & RAG apps | [Phase 11: LLM Engineering](phases/11-llm-engineering/) | [RAG Pipeline Simulator](index.html) |
+| I want to build AI Agents & Tool Calling | [Phase 14: Agent Engineering](phases/14-agent-engineering/) | [Agent Loop Simulator](phases/14-agent-engineering/01-the-agent-loop/) |
+| I want to build with Model Context Protocol (MCP) | [Phase 13: Tools & Protocols](phases/13-tools-and-protocols/) | [MCP Fundamentals](phases/13-tools-and-protocols/06-mcp-fundamentals/) |
+| I want to write and ship Agent Skills | [Phase 13: Agent Skills Fast-Path](phases/13-tools-and-protocols/) | [Skills & SDKs](phases/13-tools-and-protocols/22-skills-and-agent-sdks/) |
+| I want to prepare for Claude Architecture Cert | [Claude Cert Onboarding](certifications/claude/GETTING_STARTED.md) | [Certification Blueprints](certifications/claude/) |
+| I want to prepare for MCP Associate (MCPA) | [MCPA Onboarding](certifications/mcpa/GETTING_STARTED.md) | [MCPA Blueprint](certifications/mcpa/) |
 
-Not sure where you fit? Use the [`start-learning` placement tutor](skills/start-learning/SKILL.md)
-or the [website prerequisites guide](https://aiengineeringfromscratch.com/prereqs.html).
+Compare all pathways and career routes in the [Learning Paths](learning-paths/) guide or inside the interactive [20 Phases Universe](index.html).
 
-Compare four core domains and six career routes in the [AI Engineering Learning Paths](https://aiengineeringfromscratch.com/learning-paths.html).
-
-### Sponsors
-
-<a href="https://serpapi.com/ai-engineering-from-scratch">
-  <img align="left" src="assets/sponsors/serpapi-banner.png" alt="SerpApi. Web Search API for your AI apps. Available in Markdown and JSON for any integration." width="600">
-</a>
-
-<p><br><b>Thank you to our sponsors.</b></p>
-<p>Your support keeps every lesson free and open source.</p>
-<p>
-  <a href="#supporters">See all supporters</a><br>
-  <a href="SPONSORS.md">Become a sponsor</a>
-  <br clear="all">
-</p>
+---
 
 ### Use every lesson the same way
 
@@ -128,7 +109,7 @@ run the implementation for the language you are learning.
 ### Clone it and produce your first evidence
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/harikiranchirala-AIworks/ai-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
@@ -160,7 +141,7 @@ Then install the curriculum skills and choose the host and scope you intend to
 use when the installer asks:
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add harikiranchirala-AIworks/ai-engineering-from-scratch
 ```
 
 Invocation syntax belongs to the host, not to the portable `SKILL.md` format:
@@ -189,14 +170,14 @@ Only want Agent Skills? Use the Agent Skills invocation for your host. It
 creates `AGENT-SKILLS-LEARNING.md` and follows one coherent five-lesson route:
 contract, discovery, invocation, sandbox boundaries, then release evals and
 real-host portability. Start on the web with the
-[Agent Skills path](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
+[Agent Skills path](index.html/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
 
 The installer lists the hosts it can configure and asks where to install. If
 you do not have Node.js, `npx`, `python3`, a supported host, or a writable
 scope yet, use the website or read `docs/en.md` manually. That path teaches the
 concepts, but real-host discovery, invocation, script, and uninstall evidence
 remains pending until the preflight is available. Read the lessons at
-[aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+[AI Prompt2Prod](index.html).
 
 ## How this works
 
@@ -289,7 +270,7 @@ Three ways in. Pick one.
 compatible agent and let the course drive itself:
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add harikiranchirala-AIworks/ai-engineering-from-scratch
 ```
 
 Use the host-specific invocation table above. The installed skills provide
@@ -301,13 +282,13 @@ Progress lives in `LEARNING.md`, `MCP-LEARNING.md`, or
 `AGENT-SKILLS-LEARNING.md` in your project, so every session can resume.
 
 **Option B — read.** Open any completed lesson on
-[aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) or expand a phase under
+[AI Prompt2Prod](index.html) or expand a phase under
 [Contents](#contents). No setup, no cloning.
 
 **Option C — clone and run.**
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+git clone https://github.com/harikiranchirala-AIworks/ai-engineering-from-scratch.git
 cd ai-engineering-from-scratch
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
 ```
@@ -334,7 +315,7 @@ with Claude Code, Codex, ChatGPT, Cursor, or another agent. Run
 another host to use `claude-certification`. It chooses a track, creates a
 persistent route in `CLAUDE-CERTIFICATION.md`, teaches one step at a time, runs
 the real labs, and gives artifact-based feedback. The same curriculum remains
-available on the [certification website](https://aiengineeringfromscratch.com/certifications.html).
+available on the [certification website](index.html/certifications.html).
 
 The academy is independent study material based on public exam objectives. It is not
 affiliated with Anthropic, does not reproduce live exam questions, and cannot guarantee
@@ -357,7 +338,7 @@ Claude Code, Codex, ChatGPT, Cursor, or another agent. Run `mcpa-certification` 
 `/mcpa-certification` in Claude Code, or ask another host to use `mcpa-certification`. It
 creates a persistent route in `MCPA-CERTIFICATION.md`, teaches one step at a time, runs
 the real labs, and gives artifact-based feedback. The same curriculum is available on the
-[MCPA track page](https://aiengineeringfromscratch.com/certification?id=mcpa-f).
+[MCPA track page](index.html/certification?id=mcpa-f).
 
 This curriculum is independent study material based on public exam objectives. It is not
 affiliated with the Agentic AI Foundation or the Linux Foundation, does not reproduce
@@ -383,7 +364,7 @@ live exam questions, and cannot guarantee a passing score.
 
 ## Read the core curriculum as a book
 
-The 20-phase core curriculum under `phases/` compiles into a six-volume book series. EPUB and PDF are built by CI from the same core lesson sources and attached to every [GitHub release](https://github.com/rohitg00/ai-engineering-from-scratch/releases); the links below always resolve to the newest release. Volume numbers index the series, not versions: each copy carries a dated edition stamp, and older editions stay downloadable from their release.
+The 20-phase core curriculum under `phases/` compiles into a six-volume book series. EPUB and PDF are built by CI from the same core lesson sources and attached to every [GitHub release](https://github.com/harikiranchirala-AIworks/ai-engineering-from-scratch/releases); the links below always resolve to the newest release. Volume numbers index the series, not versions: each copy carries a dated edition stamp, and older editions stay downloadable from their release.
 
 Certification curricula are intentionally not converted into the books. Their
 AI tutor state, runnable labs, interactive figures, diagnostics, and timed mocks
@@ -391,12 +372,12 @@ remain first-class on GitHub and the website.
 
 | Vol | Title | Phases | Download |
 |-----|-------|--------|----------|
-| 1 | Foundations · Math, Tooling, and Classical Machine Learning | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | Deep Learning · Networks, Vision, and Speech | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | Language · NLP Foundations and the Transformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | Large Language Models · Generation, Reinforcement, Pretraining, and Engineering | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | Agents · Multimodality, Protocols, Autonomy, and Swarms | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | Production · Infrastructure, Safety, and Capstones | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+| 1 | Foundations · Math, Tooling, and Classical Machine Learning | 00-02 | [EPUB](https://github.com/harikiranchirala-AIworks/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/harikiranchirala-AIworks/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | Deep Learning · Networks, Vision, and Speech | 03, 04, 06 | [EPUB](https://github.com/harikiranchirala-AIworks/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/harikiranchirala-AIworks/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | Language · NLP Foundations and the Transformer | 05, 07 | [EPUB](https://github.com/harikiranchirala-AIworks/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/harikiranchirala-AIworks/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | Large Language Models · Generation, Reinforcement, Pretraining, and Engineering | 08-11 | [EPUB](https://github.com/harikiranchirala-AIworks/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/harikiranchirala-AIworks/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | Agents · Multimodality, Protocols, Autonomy, and Swarms | 12-16 | [EPUB](https://github.com/harikiranchirala-AIworks/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/harikiranchirala-AIworks/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | Production · Infrastructure, Safety, and Capstones | 17-19 | [EPUB](https://github.com/harikiranchirala-AIworks/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/harikiranchirala-AIworks/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
 
 The book is the snapshot; this repository is the living edition. Every chapter ends with links back to the lesson's animated figures, quiz, and runnable code. Build locally with `python3 scripts/build_book.py` (pandoc required); pipeline details in [book/README.md](book/README.md).
 
@@ -1244,7 +1225,7 @@ install into a supported skill-capable host with one command. Installation needs
 Node.js and `npx`, but not a repository clone or Python:
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add harikiranchirala-AIworks/ai-engineering-from-scratch
 ```
 
 `skills` writes to the host and scope selected during installation, such as
@@ -1430,32 +1411,8 @@ relative links inside lesson docs.
 ░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
 ```
 
-<a id="supporters"></a>
-
-## Sponsor the work
-
-Free, MIT-licensed, 524 lessons. Thank you to the sponsors and backers who make the work possible.
-[See all sponsors and backers](BACKERS.md).
-
-Want to support the work? See [sponsorship options](SPONSORS.md), including
-[hardware sponsorships](SPONSORS.md#hardware-lab-partner), or
-[sponsor on GitHub](https://github.com/sponsors/rohitg00).
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
-
-If this manual helped you, star the repo. It keeps the project alive.
-
 ## License
 
-MIT. Use it however you want — fork it, teach it, sell it, ship it. Attribution appreciated,
-not required.
+MIT License. Free and open source — use it, learn from it, fork it, and build on it.
 
-Maintained by [Rohit Ghumare](https://github.com/rohitg00) and the community.
-
-<sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp;
-  <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp;
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Report / Suggest</a>
-</sub>
+Maintained by **[HARIKIRAN AI WORKS](https://github.com/harikiranchirala-AIworks)** and the open-source community.

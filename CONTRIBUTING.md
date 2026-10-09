@@ -146,7 +146,7 @@ More exercises and projects are always welcome, especially ones that connect mul
 
 Sponsorship changes are not accepted through contributor pull requests. Sponsor
 names, logos, links, and tier assignments are managed by the maintainer. See
-[SPONSORS.md](SPONSORS.md) for sponsorship enquiries.
+the maintainers for sponsorship enquiries.
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b add-lesson-phase3-gradient-descent`)
