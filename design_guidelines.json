@@ -1,0 +1,116 @@
+{
+  "theme": "SWISS & HIGH-CONTRAST (Authority, Clarity, Truth) mixed with Technical Blueprint",
+  "vibe": "A hyper-modern, brutalist yet precise engineering manual. It should feel authoritative, technical, and structural. Instead of generic AI purple gradients or dark mode, it uses stark light-mode contrasts, visible grids, and striking typography to feel like a high-end technical document.",
+  "colors": {
+    "background": {
+      "base": "#F4F4F0",
+      "description": "Warm paper/bone white. Gives a physical, organic touch to the digital space."
+    },
+    "surface": {
+      "default": "#FFFFFF",
+      "subtle": "#EAEAEA",
+      "dark": "#111111"
+    },
+    "border": {
+      "structural": "#D4D4D4",
+      "hard": "#111111"
+    },
+    "text": {
+      "primary": "#111111",
+      "secondary": "#555555",
+      "inverse": "#F4F4F0"
+    },
+    "accent": {
+      "primary": "#002FA7",
+      "primary_description": "International Klein Blue. Use strictly for primary CTAs, active states, and progress bars. High impact.",
+      "warning": "#FF3B30",
+      "success": "#00C853",
+      "highlight": "#FAFF00",
+      "highlight_description": "Highlighter Yellow. Use for active text selection or highlighting key AI definitions."
+    }
+  },
+  "typography": {
+    "heading_font": "Cabinet Grotesk",
+    "heading_strategy": "High impact, wide, tight tracking. Never center headings unless for specific hero balance. Use tracking-tighter.",
+    "body_font": "JetBrains Mono",
+    "body_strategy": "Sterile, monospaced font for all body text, labels, metadata, and difficulty badges to emphasize the 'engineering' aspect.",
+    "scales": {
+      "h1": "text-5xl sm:text-6xl tracking-tighter leading-none font-black",
+      "h2": "text-3xl sm:text-4xl tracking-tight leading-tight font-bold",
+      "h3": "text-xl sm:text-2xl tracking-tight font-semibold",
+      "body": "text-sm sm:text-base leading-relaxed",
+      "labels": "text-xs tracking-[0.2em] uppercase font-bold"
+    }
+  },
+  "visual_enhancers": {
+    "borders": "Expose the skeleton. Use 1px hard borders (border-black) for cards and buttons. Use subtle borders (border-neutral-300) for grid dividers.",
+    "shadows": "Hard, brutalist shadows. shadow-[4px_4px_0px_0px_rgba(17,17,17,1)] instead of soft blurs. Creates a tactile, 'stamped' feel.",
+    "radius": "No rounded corners. rounded-none for a sharp, precise, paper-like aesthetic.",
+    "textures": "Optional subtle SVG noise overlay fixed at z-0 with 3% opacity to kill the digital flatness."
+  },
+  "components": {
+    "cards": {
+      "style": "bg-white border border-black shadow-[4px_4px_0px_0px_rgba(17,17,17,1)] p-6 sm:p-8 rounded-none transition-transform hover:-translate-y-1 hover:translate-x-1 hover:shadow-[8px_8px_0px_0px_rgba(17,17,17,1)]"
+    },
+    "buttons": {
+      "primary": "bg-[#002FA7] text-white px-6 py-3 font-mono text-sm uppercase tracking-widest hover:bg-black transition-colors rounded-none",
+      "secondary": "bg-transparent border border-black text-black px-6 py-3 font-mono text-sm uppercase tracking-widest hover:bg-[#FAFF00] transition-colors rounded-none"
+    },
+    "badges": {
+      "style": "inline-block border border-black px-2 py-1 text-xs font-mono uppercase tracking-wider bg-[#EAEAEA]"
+    },
+    "progress_bars": {
+      "style": "h-2 w-full bg-neutral-200 border-y border-black",
+      "fill": "h-full bg-[#002FA7]"
+    },
+    "ai_chat_tutor": {
+      "style": "bg-[#111111] text-[#F4F4F0] p-6 font-mono text-sm border border-black shadow-[8px_8px_0px_0px_rgba(0,47,167,1)]",
+      "input": "bg-transparent border-b border-neutral-700 focus:border-white w-full py-2 outline-none"
+    }
+  },
+  "grids_and_layouts": {
+    "spacing": "Generous Spacing Philosophy. Use p-8, p-12, p-16. Never cramp content. Cards must have internal p-6 or p-8.",
+    "dashboard_grid": "The 'Technical' Look. Use a CSS grid with border-collapse, exposing grid lines between modules.",
+    "hero": "Asymmetrical split layout. Left side: Massive typography, progress tracker. Right side: The Live AI Tutor interactive console.",
+    "module_grid": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8. Direct children must be the card elements."
+  },
+  "motion_and_interaction": {
+    "hover_states": "Crisp and mechanical. Buttons turn highlighter yellow or solid black instantly. Cards translate aggressively with solid shadow growth.",
+    "transitions": "transition-all duration-200 ease-in-out. Avoid sluggish 500ms fades.",
+    "ai_typing": "Use a blinking cursor block `█` for the AI chat stream to mimic a terminal."
+  },
+  "accessibility": {
+    "contrast": "Extremely high contrast. Black on white, white on black, blue on white.",
+    "focus": "focus:outline-none focus:ring-2 focus:ring-[#002FA7] focus:ring-offset-2",
+    "motion": "Respect prefers-reduced-motion for the card hover translations."
+  },
+  "images": {
+    "hero_accent": {
+      "url": "https://images.pexels.com/photos/12696432/pexels-photo-12696432.jpeg",
+      "description": "Abstract steel structure with futuristic geometric patterns. Use as a masked overlay, hero background accent, or decorative structural image in the hero section.",
+      "category": "Hero Background / Structural Visual"
+    },
+    "concept_accent": {
+      "url": "https://images.unsplash.com/photo-1786840228917-29265afe36c5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHwzfHxtaW5pbWFsaXN0JTIwZ2VvbWV0cmljJTIwc2N1bHB0dXJlfGVufDB8fHx8MTc4NzUwMTc5NHww&ixlib=rb-4.1.0&q=85",
+      "description": "Geometric object with concrete top and twisted copper base. Use for the 'Capstone/Interview Prep' card or 'Foundations' module visual.",
+      "category": "Module Card Accent / Concept Visual"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Install required fonts: Cabinet Grotesk (from Fontshare or local assets) and JetBrains Mono (from Google Fonts).",
+    "Use Phosphor Icons (yarn add @phosphor-icons/react) with a 'bold' or 'fill' weight to match the brutalist aesthetic.",
+    "Do NOT use Shadcn's default Card component if it forces border-radius and soft shadows. Build custom raw HTML/Tailwind cards using the rules in 'components.cards'.",
+    "Implement the Live AI Chat Tutor as a hero interactive feature. Give it a deep dark terminal vibe (#111111) to contrast aggressively with the off-white page background.",
+    "Add 'data-testid' to all progress bars, module cards, flashcard toggle buttons, and AI chat inputs.",
+    "Implement local storage for progress tracking without requiring login.",
+    "Organize the 11 modules into a high-density grid. Ensure each has a difficulty badge and click-to-expand functionality for topics/definitions."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Avoid the 'AI slop' aesthetic. Do NOT use purple-to-blue gradients, glowing orbs, or standard SaaS blue.",
+    "You MUST NOT apply universal transitions (e.g., transition: all). Add transitions for specific interactive elements only.",
+    "You MUST NOT center align the app container. Keep a left-aligned, highly structured, grid-based reading flow.",
+    "Use hard, sharp shadows (e.g., shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]) instead of soft, blurred shadows.",
+    "Prioritize using pre-existing components from src/components/ui when applicable, but strip away any soft rounded corners (rounded-lg) to adhere to the brutalist sharp aesthetic (rounded-none).",
+    "Use sonner for toasts, but override the style to match the sharp, high-contrast borders."
+  ]
+}
