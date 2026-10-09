@@ -1,63 +1,37 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="AI Engineering from Scratch — reference manual banner" width="100%">
-</p>
+# ⚡ AI Prompt2Prod — The Complete Production GenAI & Multi-Agent Engineer Hub
 
-<p align="center">
-  <b>Read in your language:</b>
-  <a href="i18n/es/README.md">Español</a> ·
-  <a href="i18n/fr/README.md">Français</a> ·
-  <a href="i18n/pt/README.md">Português</a> ·
-  <a href="i18n/de/README.md">Deutsch</a> ·
-  <a href="i18n/it/README.md">Italiano</a> ·
-  <a href="i18n/zh/README.md">简体中文</a> ·
-  <a href="i18n/ja/README.md">日本語</a> ·
-  <a href="i18n/ko/README.md">한국어</a> ·
-  <a href="i18n/hi/README.md">हिन्दी</a> ·
-  <a href="i18n/ar/README.md">العربية</a> ·
-  <a href="i18n/ru/README.md">Русский</a> ·
-  <a href="i18n/tr/README.md">Türkçe</a>
-  <br><sub>Translated landing pages, committed to the repo. English is canonical; lesson pages are machine-translated on the <code>translations</code> branch. See <a href="docs/i18n.md">docs/i18n.md</a>.</sub>
-</p>
+[![MIT License](https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5)](LICENSE)
+[![524 Lessons](https://img.shields.io/badge/lessons-524-3553ff?style=flat-square&labelColor=fafaf5)](GETTING_STARTED.md)
+[![20 Phases](https://img.shields.io/badge/phases-20-10b981?style=flat-square&labelColor=fafaf5)](GETTING_STARTED.md)
+[![Interactive Web UI](https://img.shields.io/badge/UI-Zero--Install%20Offline-amber)](index.html)
+[![Author](https://img.shields.io/badge/Built%20By-HARIKIRAN%20AI%20WORKS-indigo)](https://github.com/harikiranchirala-AIworks)
 
-<p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT License"></a>
-  <a href="ROADMAP.md"><img src="https://img.shields.io/badge/lessons-524-3553ff?style=flat-square&labelColor=fafaf5" alt="524 lessons"></a>
-  <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 phases"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub stars"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Website"></a>
-</p>
-
-## From the creator of [Agent Memory - #1 Persistent memory ⭐](https://github.com/rohitg00/agentmemory) <a href="https://github.com/rohitg00/agentmemory/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/agentmemory?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub stars"></a> which naturally works with any agents or chat assistants.
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
-
-> **84% of students already use AI tools. Only 18% feel prepared to use them
-> professionally.** This curriculum closes that gap.
+> **84% of developers already use AI tools. Only 18% feel prepared to build production AI systems from scratch.** 
+> **AI Prompt2Prod** closes that gap.
 >
-> 524 lessons. 20 phases. ~342 hours. Python, TypeScript, Rust, Julia. Every lesson ships
-> a reusable artifact: a prompt, a skill, an agent, an MCP server. Free, open source, MIT.
->
-> You don't just learn AI. You build it. End-to-end. By hand.
+> 524 lessons. 20 phases. 11 production modules (833 topics). Python, TypeScript, Rust, Julia. 
+> Interactive RAG & LangGraph simulators, GPU VRAM calculators, Leitner flashcards, and mock interviews. 
+> Free, open-source, MIT Licensed.
 
-<!-- STATS:START (generated from site/stats.json by build.js — do not edit by hand) -->
-<p align="center"><sub><b>114,584</b> readers &nbsp;·&nbsp; <b>181,995</b> page views in the last 30 days &nbsp;·&nbsp; as of 2026-08-29</sub></p>
-<!-- STATS:END -->
+---
 
-## 🌟 Free AI Engineering Mastery — Learn From Scratch to Production
+## 🌟 Free & Open AI Engineering Mastery
 
-Welcome! This entire repository is **100% free and open-source (MIT Licensed)**. Whether you are a student, software engineer, or AI enthusiast, you can master everything from fundamental linear algebra to production multi-agent swarms.
+Welcome! This entire repository is **100% free and open-source (MIT Licensed)** by **HARIKIRAN AI WORKS**.
 
-👉 **New here? Read the [Free Learner & Study Guide (GETTING_STARTED.md)](GETTING_STARTED.md)** for detailed walkthroughs.
+👉 **New here? Read the [Complete Learner & Study Guide (GETTING_STARTED.md)](GETTING_STARTED.md)** for step-by-step study plans.
 
 ---
 
 ### 🚀 3 Ways to Learn Right Now
 
-#### 1. Instant Interactive Web App (Zero Install / Offline)
-* Simply open **[`genai_learning_hub.html`](genai_learning_hub.html)** (or [`standalone/genai_learning_hub.html`](standalone/genai_learning_hub.html)) in **Chrome**, **Edge**, or **Firefox**.
+#### 1. Instant Interactive Web Platform (Zero Install / Offline)
+* Simply double-click **[`index.html`](index.html)** or **[`ai_prompt2prod.html`](ai_prompt2prod.html)** (or [`genai_learning_hub.html`](genai_learning_hub.html)) in **Chrome**, **Edge**, or **Firefox**.
 * **Features**:
+  * 🌌 **20 Phases Universe Explorer**: Browse and search all 524 first-principles lessons.
+  * 🔬 **Interactive AI Labs**: Live RAG Pipeline simulator, LangGraph multi-agent builder, GPU VRAM sizing calculator, and Self-Attention heatmap.
+  * 📚 **11 Production Engineering Modules (833 Topics)** with audio text-to-speech read-aloud.
+  * 🗂️ **5-Box Leitner Spaced Repetition Flashcards** and **Timed AI Mock Interviewer**.
   * 🌌 **20 Phases Universe Explorer**: Browse and search all 524 first-principles lessons.
   * 🔬 **Interactive AI Labs**: Live RAG Pipeline simulator, LangGraph multi-agent builder, GPU VRAM sizing calculator, and Self-Attention heatmap.
   * 📚 **11 Production Engineering Modules (833 Topics)** with audio text-to-speech read-aloud.

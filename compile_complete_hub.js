@@ -62,21 +62,21 @@ function UniverseView({ phases, onSelectLesson }) {
 
   return (
     <div className="space-y-8 animate-fadeIn max-w-7xl mx-auto">
-      {/* AILU-Style Header */}
+      {/* AI Prompt2Prod Universe Header */}
       <div className="relative rounded-3xl overflow-hidden border border-slate-800 bg-slate-950 text-white p-6 sm:p-10 shadow-2xl">
         <div className="relative z-10 max-w-3xl space-y-4">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-indigo-500/30 bg-indigo-500/10 text-indigo-300 text-xs font-mono font-bold">
-            <span>🌌</span> AI LEARNING UNIVERSE · FROM SCRATCH
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-emerald-500/30 bg-emerald-500/10 text-emerald-300 text-xs font-mono font-bold">
+            <span>⚡</span> AI PROMPT2PROD · 20 PHASES UNIVERSE
           </div>
           <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white">
             20 Phases · {totalLessons} First-Principles Lessons
           </h1>
           <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-            Every AI algorithm built from raw mathematics before importing a framework. 
-            Write backpropagation, tokenizers, attention mechanisms, vector databases, and multi-agent loops by hand in Python, TypeScript, Rust, or Julia.
+            From raw mathematics to production multi-agent swarms. 
+            Build autograd backpropagation, tokenizers, attention mechanisms, vector databases, and agent loops from scratch in Python, TypeScript, Rust, or Julia.
           </p>
           
-          {/* Active Learning 9-Step Loop Bar (AILU Style) */}
+          {/* Active Learning 9-Step Loop Bar */}
           <div className="pt-2">
             <div className="text-[11px] font-mono text-slate-400 uppercase tracking-widest mb-2 font-semibold">Active Learning Methodology</div>
             <div className="flex flex-wrap gap-1.5 text-xs font-mono">
@@ -96,10 +96,10 @@ function UniverseView({ phases, onSelectLesson }) {
         <div className="relative w-full sm:w-96">
           <input
             type="text"
-            placeholder="Search 524 lessons, math algorithms, phases..."
+            placeholder="Search all 524 lessons, math algorithms, phases..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full bg-slate-900 text-white placeholder-slate-500 px-4 py-2.5 pl-10 rounded-xl border border-slate-800 text-xs font-mono focus:outline-none focus:border-indigo-500 transition-colors"
+            className="w-full bg-slate-900 text-white placeholder-slate-500 px-4 py-2.5 pl-10 rounded-xl border border-slate-800 text-xs font-mono focus:outline-none focus:border-emerald-500 transition-colors"
           />
           <span className="absolute left-3.5 top-3 text-slate-500 text-xs">🔍</span>
         </div>
@@ -116,7 +116,7 @@ function UniverseView({ phases, onSelectLesson }) {
             onClick={() => setSelectedPhase(selectedPhase?.id === phase.id ? null : phase)}
             className={\`group rounded-2xl border transition-all cursor-pointer p-5 flex flex-col justify-between space-y-4 \${
               selectedPhase?.id === phase.id
-                ? 'bg-slate-900 border-indigo-500 shadow-lg ring-1 ring-indigo-500/50'
+                ? 'bg-slate-900 border-emerald-500 shadow-lg ring-1 ring-emerald-500/50'
                 : 'bg-slate-950/80 hover:bg-slate-900 border-slate-800/80 hover:border-slate-700'
             }\`}
           >
@@ -135,14 +135,14 @@ function UniverseView({ phases, onSelectLesson }) {
                   {phase.lessonCount} {phase.lessonCount === 1 ? 'lesson' : 'lessons'}
                 </span>
               </div>
-              <h3 className="font-bold text-base text-white group-hover:text-indigo-300 transition-colors">
+              <h3 className="font-bold text-base text-white group-hover:text-emerald-300 transition-colors">
                 {phase.title}
               </h3>
             </div>
 
             <div className="pt-2 border-t border-slate-900 flex items-center justify-between text-xs font-mono text-slate-400">
               <span className="text-[10px] text-slate-500">Python · Rust · TS · Julia</span>
-              <span className="text-indigo-400 group-hover:translate-x-1 transition-transform">
+              <span className="text-emerald-400 group-hover:translate-x-1 transition-transform">
                 {selectedPhase?.id === phase.id ? 'Close ↑' : 'Explore →'}
               </span>
             </div>
@@ -152,7 +152,7 @@ function UniverseView({ phases, onSelectLesson }) {
 
       {/* Expanded Phase Detail Drawer */}
       {selectedPhase && (
-        <div className="rounded-3xl border border-indigo-500/40 bg-slate-950 p-6 sm:p-8 space-y-6 shadow-2xl animate-fadeIn">
+        <div className="rounded-3xl border border-emerald-500/40 bg-slate-950 p-6 sm:p-8 space-y-6 shadow-2xl animate-fadeIn">
           <div className="flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 pb-4">
             <div className="flex items-center gap-3">
               <span className="w-4 h-4 rounded-full" style={{ backgroundColor: selectedPhase.color }}></span>
@@ -172,7 +172,7 @@ function UniverseView({ phases, onSelectLesson }) {
             {selectedPhase.lessons.map((lesson, idx) => (
               <div
                 key={lesson.slug}
-                className="p-4 rounded-xl bg-slate-900/90 border border-slate-800 hover:border-indigo-500/50 transition-all space-y-2 group"
+                className="p-4 rounded-xl bg-slate-900/90 border border-slate-800 hover:border-emerald-500/50 transition-all space-y-2 group"
               >
                 <div className="flex items-center justify-between text-[10px] font-mono text-slate-400">
                   <span className="text-emerald-400 font-bold">Lesson {String(idx + 1).padStart(2, '0')}</span>
@@ -185,7 +185,7 @@ function UniverseView({ phases, onSelectLesson }) {
                   <code className="text-[10px] font-mono text-slate-500 truncate max-w-[200px]">
                     {lesson.path}
                   </code>
-                  <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-indigo-300 border border-slate-700">
+                  <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-emerald-300 border border-slate-700">
                     Run Lab 🚀
                   </span>
                 </div>
@@ -310,36 +310,35 @@ function LabsView({ onSelectLab }) {
 
 jsx = componentsCode + '\n' + jsx;
 
-// 4. Update Header with AILU navigation tabs
+// 4. Update Header with AI Prompt2Prod navigation tabs
 const headerTarget = 'title="Open My Personal Notes & Bookmarks"';
 const headerNavAddition = `
-            {/* AILU Navigation Bar */}
+            {/* AI Prompt2Prod Top Nav */}
             <div className="hidden lg:flex items-center gap-1 text-xs font-mono font-bold">
               <button
                 type="button"
                 onClick={() => { setView('universe'); setIsMobileSidebarOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
-                className={\`px-3 py-1.5 rounded-lg text-xs font-bold font-mono transition-all border \${view === 'universe' ? 'bg-indigo-600 text-white border-indigo-400 shadow-sm' : 'bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-white border-slate-200 dark:border-slate-800'}\`}
+                className={\`px-3 py-1.5 rounded-lg text-xs font-bold font-mono transition-all border \${view === 'universe' ? 'bg-emerald-600 text-white border-emerald-400 shadow-sm' : 'bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-white border-slate-200 dark:border-slate-800'}\`}
               >
-                🌌 Universe (20 Phases)
+                🌌 20 Phases (524 Lessons)
               </button>
               <button
                 type="button"
                 onClick={() => { setView('labs'); setIsMobileSidebarOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
                 className={\`px-3 py-1.5 rounded-lg text-xs font-bold font-mono transition-all border \${view === 'labs' ? 'bg-teal-600 text-white border-teal-400 shadow-sm' : 'bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-white border-slate-200 dark:border-slate-800'}\`}
               >
-                🔬 Labs
+                🔬 Interactive Labs
               </button>
               <button
                 type="button"
                 onClick={() => { setView('home'); setIsMobileSidebarOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
-                className={\`px-3 py-1.5 rounded-lg text-xs font-bold font-mono transition-all border \${view === 'home' ? 'bg-emerald-600 text-white border-emerald-400 shadow-sm' : 'bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-white border-slate-200 dark:border-slate-800'}\`}
+                className={\`px-3 py-1.5 rounded-lg text-xs font-bold font-mono transition-all border \${view === 'home' ? 'bg-indigo-600 text-white border-indigo-400 shadow-sm' : 'bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-white border-slate-200 dark:border-slate-800'}\`}
               >
-                📚 11 Modules
+                📚 11 Modules (833 Topics)
               </button>
             </div>
 `;
 
-// Insert after the notes button closing tag
 const notesClosing = '</button>';
 const notesIdx = jsx.indexOf(headerTarget);
 if (notesIdx !== -1) {
@@ -349,7 +348,7 @@ if (notesIdx !== -1) {
   }
 }
 
-// 5. Add Sidebar Navigation links for Universe and Labs
+// 5. Add Sidebar Navigation links
 const sidebarTarget = 'id="nav-static-home"';
 const sidebarButtonClose = '</button>';
 const sIdx = jsx.indexOf(sidebarTarget);
@@ -360,13 +359,13 @@ if (sIdx !== -1) {
               <button
                 id="nav-universe"
                 onClick={() => handleNav(() => setView('universe'))}
-                className={\`w-full px-3 py-2.5 rounded-lg text-xs font-bold flex items-center justify-between cursor-pointer transition-colors text-left \${view === 'universe' ? 'bg-indigo-600/30 text-indigo-300 border border-indigo-500/50' : 'text-slate-300 hover:bg-slate-800/60 hover:text-white'}\`}
+                className={\`w-full px-3 py-2.5 rounded-lg text-xs font-bold flex items-center justify-between cursor-pointer transition-colors text-left \${view === 'universe' ? 'bg-emerald-600/30 text-emerald-300 border border-emerald-500/50' : 'text-slate-300 hover:bg-slate-800/60 hover:text-white'}\`}
               >
                 <div className="flex items-center space-x-2.5 truncate">
                   <span>🌌</span>
                   <span className="truncate">20 Phases (524 Lessons)</span>
                 </div>
-                <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300 font-bold">524</span>
+                <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-bold">524</span>
               </button>
 
               <button
@@ -388,9 +387,9 @@ if (sIdx !== -1) {
 // 6. Add view breadcrumb title text
 const breadcrumbTarget = "{view === 'home' && 'Overview & Learning Roadmap'}";
 const newBreadcrumbs = `
-              {view === 'universe' && 'AI Learning Universe · 20 Phases (524 Lessons)'}
-              {view === 'labs' && 'Interactive AI Labs & Simulators'}
-              {view === 'home' && 'Overview & Learning Roadmap'}
+              {view === 'universe' && 'AI Prompt2Prod · 20 Phases (524 Lessons)'}
+              {view === 'labs' && 'Interactive AI Labs & Client Simulators'}
+              {view === 'home' && 'AI Prompt2Prod · Overview & Learning Roadmap'}
 `;
 
 if (jsx.includes(breadcrumbTarget)) {
@@ -423,7 +422,7 @@ if (jsx.includes(mainTarget)) {
   jsx = jsx.replace(mainTarget, mainRenderInsert);
 }
 
-console.log('Compiling enhanced JSX with Babel...');
+console.log('Compiling AI Prompt2Prod JSX with Babel...');
 const res = babel.transformSync(jsx, {
   presets: [
     [presetReact, { runtime: 'classic' }]
@@ -450,8 +449,10 @@ const after = html.substring(end + '</script>'.length);
 const finalHtml = before + `<script>\n${res.code}\n</script>` + after;
 
 const destinations = [
-  'standalone/genai_learning_hub.html',
+  'index.html',
+  'ai_prompt2prod.html',
   'genai_learning_hub.html',
+  'standalone/genai_learning_hub.html',
   'frontend/public/standalone.html',
   'frontend/public/index.html'
 ];
@@ -462,4 +463,4 @@ for (const dest of destinations) {
   console.log('Successfully updated:', dest);
 }
 
-console.log('ALL FILES UPDATED WITH AILU STYLING AND 20-PHASE UNIVERSE EXPLORER!');
+console.log('ALL FILES SYNCHRONIZED WITH AI PROMPT2PROD BRANDING!');

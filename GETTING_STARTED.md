@@ -1,6 +1,6 @@
-# 🎓 Free Learner & Study Guide — AI Engineering Mastery
+# ⚡ AI Prompt2Prod — Free Learner & Study Guide
 
-Welcome! This repository is **100% free and open-source (MIT Licensed)**, designed to take anyone from absolute zero to production AI engineer and researcher.
+Welcome to **AI Prompt2Prod**, a 100% free and open-source platform by **HARIKIRAN AI WORKS** designed to take anyone from first principles to production AI engineer and multi-agent system builder.
 
 Whether you prefer **interactive visual web apps**, **pure math and code from scratch**, or **interview & certification preparation**, this guide will help you get started in under 60 seconds.
 
@@ -32,7 +32,7 @@ If you don't want to install Node.js, Python, or complex dependencies right now,
    git clone https://github.com/harikiranchirala-AIworks/ai-engineering-from-scratch.git
    ```
 2. **Open the App**:
-   - Double-click **[`genai_learning_hub.html`](genai_learning_hub.html)** (or [`standalone/genai_learning_hub.html`](standalone/genai_learning_hub.html)) to open it in **Chrome**, **Edge**, or **Firefox**.
+   - Double-click **[`index.html`](index.html)** or **[`ai_prompt2prod.html`](ai_prompt2prod.html)** (or [`genai_learning_hub.html`](genai_learning_hub.html)) to open it in **Chrome**, **Edge**, or **Firefox**.
 3. **What You Get Inside**:
    - **🌌 20 Phases Universe Explorer**: Browse and search all 524 first-principles lessons.
    - **🔬 Interactive AI Labs**:
