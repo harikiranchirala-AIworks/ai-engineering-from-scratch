@@ -5739,6 +5739,222 @@ window.QA_DATA = QA_DATA;
 
 <!-- Standalone React Application -->
 <script>
+function UniverseView({
+  phases,
+  onSelectLesson
+}) {
+  const [search, setSearch] = useState('');
+  const [selectedPhase, setSelectedPhase] = useState(null);
+  const filteredPhases = useMemo(() => {
+    if (!search) return phases;
+    const q = search.toLowerCase();
+    return phases.map(p => {
+      const matchPhase = p.title.toLowerCase().includes(q) || p.id.toLowerCase().includes(q);
+      const matchingLessons = p.lessons.filter(l => l.title.toLowerCase().includes(q) || l.slug.toLowerCase().includes(q));
+      if (matchPhase) return p;
+      if (matchingLessons.length > 0) {
+        return {
+          ...p,
+          lessons: matchingLessons
+        };
+      }
+      return null;
+    }).filter(Boolean);
+  }, [phases, search]);
+  const totalLessons = useMemo(() => phases.reduce((acc, p) => acc + p.lessonCount, 0), [phases]);
+  return /*#__PURE__*/React.createElement("div", {
+    className: "space-y-8 animate-fadeIn max-w-7xl mx-auto"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "relative rounded-3xl overflow-hidden border border-slate-800 bg-slate-950 text-white p-6 sm:p-10 shadow-2xl"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "relative z-10 max-w-3xl space-y-4"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "inline-flex items-center gap-2 px-3 py-1 rounded-full border border-indigo-500/30 bg-indigo-500/10 text-indigo-300 text-xs font-mono font-bold"
+  }, /*#__PURE__*/React.createElement("span", null, "🌌"), " AI LEARNING UNIVERSE · FROM SCRATCH"), /*#__PURE__*/React.createElement("h1", {
+    className: "text-3xl sm:text-5xl font-extrabold tracking-tight text-white"
+  }, "20 Phases · ", totalLessons, " First-Principles Lessons"), /*#__PURE__*/React.createElement("p", {
+    className: "text-slate-300 text-sm sm:text-base leading-relaxed"
+  }, "Every AI algorithm built from raw mathematics before importing a framework. Write backpropagation, tokenizers, attention mechanisms, vector databases, and multi-agent loops by hand in Python, TypeScript, Rust, or Julia."), /*#__PURE__*/React.createElement("div", {
+    className: "pt-2"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "text-[11px] font-mono text-slate-400 uppercase tracking-widest mb-2 font-semibold"
+  }, "Active Learning Methodology"), /*#__PURE__*/React.createElement("div", {
+    className: "flex flex-wrap gap-1.5 text-xs font-mono"
+  }, ['1 Understand', '2 Visualize', '3 Example', '4 Interact', '5 Practice', '6 Apply', '7 Test', '8 Recall', '9 Build'].map((step, idx) => /*#__PURE__*/React.createElement("span", {
+    key: idx,
+    className: "px-2.5 py-1 rounded-full bg-slate-900 border border-slate-700 text-slate-300 flex items-center gap-1"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "w-1.5 h-1.5 rounded-full bg-emerald-400"
+  }), step)))))), /*#__PURE__*/React.createElement("div", {
+    className: "flex flex-col sm:flex-row items-center justify-between gap-4"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "relative w-full sm:w-96"
+  }, /*#__PURE__*/React.createElement("input", {
+    type: "text",
+    placeholder: "Search 524 lessons, math algorithms, phases...",
+    value: search,
+    onChange: e => setSearch(e.target.value),
+    className: "w-full bg-slate-900 text-white placeholder-slate-500 px-4 py-2.5 pl-10 rounded-xl border border-slate-800 text-xs font-mono focus:outline-none focus:border-indigo-500 transition-colors"
+  }), /*#__PURE__*/React.createElement("span", {
+    className: "absolute left-3.5 top-3 text-slate-500 text-xs"
+  }, "🔍")), /*#__PURE__*/React.createElement("div", {
+    className: "text-xs font-mono text-slate-400"
+  }, "Showing ", /*#__PURE__*/React.createElement("span", {
+    className: "text-emerald-400 font-bold"
+  }, filteredPhases.length), " of 20 phases (", totalLessons, " lessons)")), /*#__PURE__*/React.createElement("div", {
+    className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
+  }, filteredPhases.map(phase => /*#__PURE__*/React.createElement("div", {
+    key: phase.id,
+    onClick: () => setSelectedPhase(selectedPhase?.id === phase.id ? null : phase),
+    className: `group rounded-2xl border transition-all cursor-pointer p-5 flex flex-col justify-between space-y-4 ${selectedPhase?.id === phase.id ? 'bg-slate-900 border-indigo-500 shadow-lg ring-1 ring-indigo-500/50' : 'bg-slate-950/80 hover:bg-slate-900 border-slate-800/80 hover:border-slate-700'}`
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "space-y-3"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex items-center justify-between"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex items-center gap-2.5"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "w-3 h-3 rounded-full shrink-0 shadow-xs",
+    style: {
+      backgroundColor: phase.color
+    }
+  }), /*#__PURE__*/React.createElement("span", {
+    className: "text-[11px] font-mono font-bold uppercase text-slate-400"
+  }, "Phase ", String(phase.phaseNum).padStart(2, '0'))), /*#__PURE__*/React.createElement("span", {
+    className: "text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-slate-900 border border-slate-800 text-emerald-400"
+  }, phase.lessonCount, " ", phase.lessonCount === 1 ? 'lesson' : 'lessons')), /*#__PURE__*/React.createElement("h3", {
+    className: "font-bold text-base text-white group-hover:text-indigo-300 transition-colors"
+  }, phase.title)), /*#__PURE__*/React.createElement("div", {
+    className: "pt-2 border-t border-slate-900 flex items-center justify-between text-xs font-mono text-slate-400"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "text-[10px] text-slate-500"
+  }, "Python · Rust · TS · Julia"), /*#__PURE__*/React.createElement("span", {
+    className: "text-indigo-400 group-hover:translate-x-1 transition-transform"
+  }, selectedPhase?.id === phase.id ? 'Close ↑' : 'Explore →'))))), selectedPhase && /*#__PURE__*/React.createElement("div", {
+    className: "rounded-3xl border border-indigo-500/40 bg-slate-950 p-6 sm:p-8 space-y-6 shadow-2xl animate-fadeIn"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 pb-4"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex items-center gap-3"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "w-4 h-4 rounded-full",
+    style: {
+      backgroundColor: selectedPhase.color
+    }
+  }), /*#__PURE__*/React.createElement("h2", {
+    className: "text-xl sm:text-2xl font-black text-white"
+  }, "Phase ", String(selectedPhase.phaseNum).padStart(2, '0'), ": ", selectedPhase.title)), /*#__PURE__*/React.createElement("button", {
+    onClick: () => setSelectedPhase(null),
+    className: "px-3 py-1 bg-slate-900 hover:bg-slate-800 text-slate-400 hover:text-white rounded-lg text-xs font-mono border border-slate-700 cursor-pointer"
+  }, "✕ Close")), /*#__PURE__*/React.createElement("div", {
+    className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3"
+  }, selectedPhase.lessons.map((lesson, idx) => /*#__PURE__*/React.createElement("div", {
+    key: lesson.slug,
+    className: "p-4 rounded-xl bg-slate-900/90 border border-slate-800 hover:border-indigo-500/50 transition-all space-y-2 group"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex items-center justify-between text-[10px] font-mono text-slate-400"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "text-emerald-400 font-bold"
+  }, "Lesson ", String(idx + 1).padStart(2, '0')), /*#__PURE__*/React.createElement("span", {
+    className: "text-slate-500"
+  }, "stdlib-first")), /*#__PURE__*/React.createElement("h4", {
+    className: "font-bold text-sm text-slate-200 group-hover:text-white transition-colors"
+  }, lesson.title), /*#__PURE__*/React.createElement("div", {
+    className: "pt-2 flex items-center justify-between"
+  }, /*#__PURE__*/React.createElement("code", {
+    className: "text-[10px] font-mono text-slate-500 truncate max-w-[200px]"
+  }, lesson.path), /*#__PURE__*/React.createElement("span", {
+    className: "text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-indigo-300 border border-slate-700"
+  }, "Run Lab 🚀")))))));
+}
+function LabsView({
+  onSelectLab
+}) {
+  const labs = [{
+    id: 'rag-playground',
+    title: 'RAG Pipeline Simulator',
+    category: 'RAG & Retrieval',
+    level: 'L3 · Advanced',
+    desc: 'Interactive step-by-step chunking, BM25 dense/sparse hybrid search, and cross-encoder reranking sandbox.',
+    color: '#14b8a6',
+    icon: '🔍'
+  }, {
+    id: 'langgraph-builder',
+    title: 'LangGraph Multi-Agent Visualizer',
+    category: 'Agent Orchestration',
+    level: 'L3 · Advanced',
+    desc: 'Visual state machine simulator modeling Supervisor, Web Search, Code Execution, and Human-in-the-Loop gates.',
+    color: '#6366f1',
+    icon: '🤖'
+  }, {
+    id: 'gpu-calc',
+    title: 'GPU / VRAM Memory Calculator',
+    category: 'Inference & LLMOps',
+    level: 'L3 · Advanced',
+    desc: 'Real-time parameter sizing, KV cache estimation, and optimizer overhead sizing for FP16, 8-bit, 4-bit, and LoRA.',
+    color: '#10b981',
+    icon: '💾'
+  }, {
+    id: 'transformer-viz',
+    title: 'Attention Heatmap & LoRA Visualizer',
+    category: 'Deep Learning & PEFT',
+    level: 'L3 · Advanced',
+    desc: 'Interactive Self-Attention Q*K^T heatmap visualizer and LoRA low-rank weight adapter injection matrix.',
+    color: '#8b5cf6',
+    icon: '🧠'
+  }, {
+    id: 'leitner',
+    title: '5-Box Leitner Spaced Repetition',
+    category: 'Active Recall',
+    level: 'L1-L3 · Memory',
+    desc: 'Scientifically calibrated spaced repetition flashcards with 1-day, 3-day, 7-day, 14-day, and 30-day review queues.',
+    color: '#ec4899',
+    icon: '🗂️'
+  }, {
+    id: 'mock-interview',
+    title: 'Timed Technical Mock Interviewer',
+    category: 'Career & Prep',
+    level: 'L3 · Production',
+    desc: 'Real-time technical interview simulator with rubric-based answer grading and scorecard report generator.',
+    color: '#f43f5e',
+    icon: '🎯'
+  }];
+  return /*#__PURE__*/React.createElement("div", {
+    className: "space-y-8 animate-fadeIn max-w-7xl mx-auto"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-b border-slate-800 pb-6"
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "inline-flex items-center gap-2 px-3 py-1 rounded-full border border-teal-500/30 bg-teal-500/10 text-teal-300 text-xs font-mono font-bold mb-2"
+  }, /*#__PURE__*/React.createElement("span", null, "🔬"), " INTERACTIVE AI LABS"), /*#__PURE__*/React.createElement("h1", {
+    className: "text-3xl font-extrabold text-white tracking-tight"
+  }, "Client-Side Simulators & Playgrounds"), /*#__PURE__*/React.createElement("p", {
+    className: "text-slate-400 text-sm mt-1"
+  }, "Experiment directly in the browser — every lab executes real mathematical models client-side."))), /*#__PURE__*/React.createElement("div", {
+    className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+  }, labs.map(lab => /*#__PURE__*/React.createElement("div", {
+    key: lab.id,
+    onClick: () => onSelectLab(lab.id),
+    className: "group rounded-2xl border border-slate-800 bg-slate-950 p-6 flex flex-col justify-between space-y-4 hover:border-teal-500/60 hover:bg-slate-900/90 transition-all cursor-pointer shadow-xl hover:shadow-2xl"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "space-y-3"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex items-center justify-between"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "text-3xl"
+  }, lab.icon), /*#__PURE__*/React.createElement("span", {
+    className: "text-[10px] font-mono font-bold px-2.5 py-1 rounded-full bg-slate-900 border border-slate-700 text-teal-400"
+  }, lab.level)), /*#__PURE__*/React.createElement("h3", {
+    className: "font-extrabold text-lg text-white group-hover:text-teal-300 transition-colors"
+  }, lab.title), /*#__PURE__*/React.createElement("p", {
+    className: "text-xs text-slate-400 leading-relaxed"
+  }, lab.desc)), /*#__PURE__*/React.createElement("div", {
+    className: "pt-3 border-t border-slate-900 flex items-center justify-between text-xs font-mono"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "text-slate-500 text-[11px]"
+  }, lab.category), /*#__PURE__*/React.createElement("span", {
+    className: "text-teal-400 font-bold group-hover:translate-x-1 transition-transform flex items-center gap-1"
+  }, "Launch Lab ", /*#__PURE__*/React.createElement("span", null, "→")))))));
+}
 const {
   useState,
   useEffect,
@@ -8737,6 +8953,26 @@ function Sidebar({
   }, "🧪"), /*#__PURE__*/React.createElement("span", null, "RAG & Agent Playground")), /*#__PURE__*/React.createElement("span", {
     className: "text-[9px] bg-teal-500/20 text-teal-300 border border-teal-500/30 px-1.5 py-0.5 rounded font-mono font-bold"
   }, "LAB")), /*#__PURE__*/React.createElement("button", {
+    id: "nav-universe",
+    onClick: () => handleNav(() => setView('universe')),
+    className: `w-full px-3 py-2.5 rounded-lg text-xs font-bold flex items-center justify-between cursor-pointer transition-colors text-left ${view === 'universe' ? 'bg-indigo-600/30 text-indigo-300 border border-indigo-500/50' : 'text-slate-300 hover:bg-slate-800/60 hover:text-white'}`
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex items-center space-x-2.5 truncate"
+  }, /*#__PURE__*/React.createElement("span", null, "🌌"), /*#__PURE__*/React.createElement("span", {
+    className: "truncate"
+  }, "20 Phases (524 Lessons)")), /*#__PURE__*/React.createElement("span", {
+    className: "text-[10px] font-mono px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300 font-bold"
+  }, "524")), /*#__PURE__*/React.createElement("button", {
+    id: "nav-labs",
+    onClick: () => handleNav(() => setView('labs')),
+    className: `w-full px-3 py-2.5 rounded-lg text-xs font-bold flex items-center justify-between cursor-pointer transition-colors text-left ${view === 'labs' ? 'bg-teal-600/30 text-teal-300 border border-teal-500/50' : 'text-slate-300 hover:bg-slate-800/60 hover:text-white'}`
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex items-center space-x-2.5 truncate"
+  }, /*#__PURE__*/React.createElement("span", null, "🔬"), /*#__PURE__*/React.createElement("span", {
+    className: "truncate"
+  }, "Interactive AI Labs")), /*#__PURE__*/React.createElement("span", {
+    className: "text-[10px] font-mono px-1.5 py-0.5 rounded bg-teal-500/20 text-teal-300 font-bold"
+  }, "6")), /*#__PURE__*/React.createElement("button", {
     type: "button",
     id: "nav-langgraph",
     onClick: () => handleNav(() => setView('langgraph-builder')),
@@ -10718,11 +10954,46 @@ function App() {
     title: "Open My Personal Notes & Bookmarks"
   }, /*#__PURE__*/React.createElement("span", null, "📝"), /*#__PURE__*/React.createElement("span", {
     className: "hidden md:inline"
-  }, "Notes (", Object.keys(userNotes).length, ")")), /*#__PURE__*/React.createElement("span", {
+  }, "Notes (", Object.keys(userNotes).length, ")")), /*#__PURE__*/React.createElement("div", {
+    className: "hidden lg:flex items-center gap-1 text-xs font-mono font-bold"
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: () => {
+      setView('universe');
+      setIsMobileSidebarOpen(false);
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    },
+    className: `px-3 py-1.5 rounded-lg text-xs font-bold font-mono transition-all border ${view === 'universe' ? 'bg-indigo-600 text-white border-indigo-400 shadow-sm' : 'bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-white border-slate-200 dark:border-slate-800'}`
+  }, "🌌 Universe (20 Phases)"), /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: () => {
+      setView('labs');
+      setIsMobileSidebarOpen(false);
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    },
+    className: `px-3 py-1.5 rounded-lg text-xs font-bold font-mono transition-all border ${view === 'labs' ? 'bg-teal-600 text-white border-teal-400 shadow-sm' : 'bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-white border-slate-200 dark:border-slate-800'}`
+  }, "🔬 Labs"), /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: () => {
+      setView('home');
+      setIsMobileSidebarOpen(false);
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    },
+    className: `px-3 py-1.5 rounded-lg text-xs font-bold font-mono transition-all border ${view === 'home' ? 'bg-emerald-600 text-white border-emerald-400 shadow-sm' : 'bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-white border-slate-200 dark:border-slate-800'}`
+  }, "📚 11 Modules")), /*#__PURE__*/React.createElement("span", {
     className: "text-slate-400 font-mono"
   }, "/"), /*#__PURE__*/React.createElement("span", {
     className: "font-semibold text-slate-800 uppercase tracking-wider text-xs sm:text-sm truncate max-w-[160px] sm:max-w-[300px] md:max-w-[450px]"
-  }, view === 'home' && 'Overview & Learning Roadmap', view === 'executive-guide' && 'Executive AI & Leadership Guide', view === 'module' && `MODULE ${String(activeModule.id).padStart(2, '0')}: ${activeModule.title}`, view === 'quiz' && 'Flashcard Practice & Interview Bible', view === 'leitner' && 'Spaced Repetition & Leitner Learning Engine', view === 'rag-playground' && 'RAG & Agent Interactive Architecture Lab', view === 'langgraph-builder' && 'LangGraph Multi-Agent Visual Workflow Builder', view === 'mock-interview' && 'Timed Technical Mock Interview Simulator', view === 'notes-bookmarks' && 'My Notes & Bookmarked Topics', view === 'weak-areas' && 'Weak Areas Dashboard — Focus Your Review', view === 'smart-review' && 'Smart Review Queue — What To Do Next', view === 'streak-calendar' && 'Study Streak & Activity Calendar')), /*#__PURE__*/React.createElement("div", {
+  }, view === 'universe' && 'AI Learning Universe · 20 Phases (524 Lessons)', view === 'labs' && 'Interactive AI Labs & Simulators', view === 'home' && 'Overview & Learning Roadmap', view === 'executive-guide' && 'Executive AI & Leadership Guide', view === 'module' && `MODULE ${String(activeModule.id).padStart(2, '0')}: ${activeModule.title}`, view === 'quiz' && 'Flashcard Practice & Interview Bible', view === 'leitner' && 'Spaced Repetition & Leitner Learning Engine', view === 'rag-playground' && 'RAG & Agent Interactive Architecture Lab', view === 'langgraph-builder' && 'LangGraph Multi-Agent Visual Workflow Builder', view === 'mock-interview' && 'Timed Technical Mock Interview Simulator', view === 'notes-bookmarks' && 'My Notes & Bookmarked Topics', view === 'weak-areas' && 'Weak Areas Dashboard — Focus Your Review', view === 'smart-review' && 'Smart Review Queue — What To Do Next', view === 'streak-calendar' && 'Study Streak & Activity Calendar')), /*#__PURE__*/React.createElement("div", {
     className: "flex items-center space-x-3 sm:space-x-4"
   }, /*#__PURE__*/React.createElement("button", {
     type: "button",
@@ -10753,7 +11024,18 @@ function App() {
     className: "hidden md:inline-block text-[10px] font-mono bg-white px-1 rounded text-slate-400 border border-slate-200 ml-1"
   }, "⌘K")))), /*#__PURE__*/React.createElement("main", {
     className: "flex-1 p-4 sm:p-6 lg:p-8 max-w-6xl mx-auto w-full"
-  }, view === 'home' && /*#__PURE__*/React.createElement("div", {
+  }, view === 'universe' && /*#__PURE__*/React.createElement(UniverseView, {
+    phases: window.ALL_PHASES || [],
+    onSelectLesson: lesson => {}
+  }), view === 'labs' && /*#__PURE__*/React.createElement(LabsView, {
+    onSelectLab: labId => {
+      setView(labId);
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+  }), view === 'home' && /*#__PURE__*/React.createElement("div", {
     className: "space-y-6 animate-fadeIn"
   }, /*#__PURE__*/React.createElement("div", {
     className: "relative rounded-3xl overflow-hidden border border-slate-800 bg-slate-950 text-white shadow-xl group"

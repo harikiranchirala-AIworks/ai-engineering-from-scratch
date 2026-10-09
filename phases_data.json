@@ -1,0 +1,2782 @@
+[
+  {
+    "id": "00-setup-and-tooling",
+    "phaseNum": 0,
+    "title": "Setup And Tooling",
+    "lessonCount": 12,
+    "lessons": [
+      {
+        "slug": "01-dev-environment",
+        "title": "Dev Environment",
+        "path": "phases/00-setup-and-tooling/01-dev-environment"
+      },
+      {
+        "slug": "02-git-and-collaboration",
+        "title": "Git And Collaboration",
+        "path": "phases/00-setup-and-tooling/02-git-and-collaboration"
+      },
+      {
+        "slug": "03-gpu-setup-and-cloud",
+        "title": "Gpu Setup And Cloud",
+        "path": "phases/00-setup-and-tooling/03-gpu-setup-and-cloud"
+      },
+      {
+        "slug": "04-apis-and-keys",
+        "title": "Apis And Keys",
+        "path": "phases/00-setup-and-tooling/04-apis-and-keys"
+      },
+      {
+        "slug": "05-jupyter-notebooks",
+        "title": "Jupyter Notebooks",
+        "path": "phases/00-setup-and-tooling/05-jupyter-notebooks"
+      },
+      {
+        "slug": "06-python-environments",
+        "title": "Python Environments",
+        "path": "phases/00-setup-and-tooling/06-python-environments"
+      },
+      {
+        "slug": "07-docker-for-ai",
+        "title": "Docker For Ai",
+        "path": "phases/00-setup-and-tooling/07-docker-for-ai"
+      },
+      {
+        "slug": "08-editor-setup",
+        "title": "Editor Setup",
+        "path": "phases/00-setup-and-tooling/08-editor-setup"
+      },
+      {
+        "slug": "09-data-management",
+        "title": "Data Management",
+        "path": "phases/00-setup-and-tooling/09-data-management"
+      },
+      {
+        "slug": "10-terminal-and-shell",
+        "title": "Terminal And Shell",
+        "path": "phases/00-setup-and-tooling/10-terminal-and-shell"
+      },
+      {
+        "slug": "11-linux-for-ai",
+        "title": "Linux For Ai",
+        "path": "phases/00-setup-and-tooling/11-linux-for-ai"
+      },
+      {
+        "slug": "12-debugging-and-profiling",
+        "title": "Debugging And Profiling",
+        "path": "phases/00-setup-and-tooling/12-debugging-and-profiling"
+      }
+    ]
+  },
+  {
+    "id": "01-math-foundations",
+    "phaseNum": 1,
+    "title": "Math Foundations",
+    "lessonCount": 22,
+    "lessons": [
+      {
+        "slug": "01-linear-algebra-intuition",
+        "title": "Linear Algebra Intuition",
+        "path": "phases/01-math-foundations/01-linear-algebra-intuition"
+      },
+      {
+        "slug": "02-vectors-matrices-operations",
+        "title": "Vectors Matrices Operations",
+        "path": "phases/01-math-foundations/02-vectors-matrices-operations"
+      },
+      {
+        "slug": "03-matrix-transformations",
+        "title": "Matrix Transformations",
+        "path": "phases/01-math-foundations/03-matrix-transformations"
+      },
+      {
+        "slug": "04-calculus-for-ml",
+        "title": "Calculus For Ml",
+        "path": "phases/01-math-foundations/04-calculus-for-ml"
+      },
+      {
+        "slug": "05-chain-rule-and-autodiff",
+        "title": "Chain Rule And Autodiff",
+        "path": "phases/01-math-foundations/05-chain-rule-and-autodiff"
+      },
+      {
+        "slug": "06-probability-and-distributions",
+        "title": "Probability And Distributions",
+        "path": "phases/01-math-foundations/06-probability-and-distributions"
+      },
+      {
+        "slug": "07-bayes-theorem",
+        "title": "Bayes Theorem",
+        "path": "phases/01-math-foundations/07-bayes-theorem"
+      },
+      {
+        "slug": "08-optimization",
+        "title": "Optimization",
+        "path": "phases/01-math-foundations/08-optimization"
+      },
+      {
+        "slug": "09-information-theory",
+        "title": "Information Theory",
+        "path": "phases/01-math-foundations/09-information-theory"
+      },
+      {
+        "slug": "10-dimensionality-reduction",
+        "title": "Dimensionality Reduction",
+        "path": "phases/01-math-foundations/10-dimensionality-reduction"
+      },
+      {
+        "slug": "11-singular-value-decomposition",
+        "title": "Singular Value Decomposition",
+        "path": "phases/01-math-foundations/11-singular-value-decomposition"
+      },
+      {
+        "slug": "12-tensor-operations",
+        "title": "Tensor Operations",
+        "path": "phases/01-math-foundations/12-tensor-operations"
+      },
+      {
+        "slug": "13-numerical-stability",
+        "title": "Numerical Stability",
+        "path": "phases/01-math-foundations/13-numerical-stability"
+      },
+      {
+        "slug": "14-norms-and-distances",
+        "title": "Norms And Distances",
+        "path": "phases/01-math-foundations/14-norms-and-distances"
+      },
+      {
+        "slug": "15-statistics-for-ml",
+        "title": "Statistics For Ml",
+        "path": "phases/01-math-foundations/15-statistics-for-ml"
+      },
+      {
+        "slug": "16-sampling-methods",
+        "title": "Sampling Methods",
+        "path": "phases/01-math-foundations/16-sampling-methods"
+      },
+      {
+        "slug": "17-linear-systems",
+        "title": "Linear Systems",
+        "path": "phases/01-math-foundations/17-linear-systems"
+      },
+      {
+        "slug": "18-convex-optimization",
+        "title": "Convex Optimization",
+        "path": "phases/01-math-foundations/18-convex-optimization"
+      },
+      {
+        "slug": "19-complex-numbers",
+        "title": "Complex Numbers",
+        "path": "phases/01-math-foundations/19-complex-numbers"
+      },
+      {
+        "slug": "20-fourier-transform",
+        "title": "Fourier Transform",
+        "path": "phases/01-math-foundations/20-fourier-transform"
+      },
+      {
+        "slug": "21-graph-theory",
+        "title": "Graph Theory",
+        "path": "phases/01-math-foundations/21-graph-theory"
+      },
+      {
+        "slug": "22-stochastic-processes",
+        "title": "Stochastic Processes",
+        "path": "phases/01-math-foundations/22-stochastic-processes"
+      }
+    ]
+  },
+  {
+    "id": "02-ml-fundamentals",
+    "phaseNum": 2,
+    "title": "Ml Fundamentals",
+    "lessonCount": 18,
+    "lessons": [
+      {
+        "slug": "01-what-is-machine-learning",
+        "title": "What Is Machine Learning",
+        "path": "phases/02-ml-fundamentals/01-what-is-machine-learning"
+      },
+      {
+        "slug": "02-linear-regression",
+        "title": "Linear Regression",
+        "path": "phases/02-ml-fundamentals/02-linear-regression"
+      },
+      {
+        "slug": "03-logistic-regression",
+        "title": "Logistic Regression",
+        "path": "phases/02-ml-fundamentals/03-logistic-regression"
+      },
+      {
+        "slug": "04-decision-trees",
+        "title": "Decision Trees",
+        "path": "phases/02-ml-fundamentals/04-decision-trees"
+      },
+      {
+        "slug": "05-support-vector-machines",
+        "title": "Support Vector Machines",
+        "path": "phases/02-ml-fundamentals/05-support-vector-machines"
+      },
+      {
+        "slug": "06-knn-and-distances",
+        "title": "Knn And Distances",
+        "path": "phases/02-ml-fundamentals/06-knn-and-distances"
+      },
+      {
+        "slug": "07-unsupervised-learning",
+        "title": "Unsupervised Learning",
+        "path": "phases/02-ml-fundamentals/07-unsupervised-learning"
+      },
+      {
+        "slug": "08-feature-engineering",
+        "title": "Feature Engineering",
+        "path": "phases/02-ml-fundamentals/08-feature-engineering"
+      },
+      {
+        "slug": "09-model-evaluation",
+        "title": "Model Evaluation",
+        "path": "phases/02-ml-fundamentals/09-model-evaluation"
+      },
+      {
+        "slug": "10-bias-variance",
+        "title": "Bias Variance",
+        "path": "phases/02-ml-fundamentals/10-bias-variance"
+      },
+      {
+        "slug": "11-ensemble-methods",
+        "title": "Ensemble Methods",
+        "path": "phases/02-ml-fundamentals/11-ensemble-methods"
+      },
+      {
+        "slug": "12-hyperparameter-tuning",
+        "title": "Hyperparameter Tuning",
+        "path": "phases/02-ml-fundamentals/12-hyperparameter-tuning"
+      },
+      {
+        "slug": "13-ml-pipelines",
+        "title": "Ml Pipelines",
+        "path": "phases/02-ml-fundamentals/13-ml-pipelines"
+      },
+      {
+        "slug": "14-naive-bayes",
+        "title": "Naive Bayes",
+        "path": "phases/02-ml-fundamentals/14-naive-bayes"
+      },
+      {
+        "slug": "15-time-series",
+        "title": "Time Series",
+        "path": "phases/02-ml-fundamentals/15-time-series"
+      },
+      {
+        "slug": "16-anomaly-detection",
+        "title": "Anomaly Detection",
+        "path": "phases/02-ml-fundamentals/16-anomaly-detection"
+      },
+      {
+        "slug": "17-imbalanced-data",
+        "title": "Imbalanced Data",
+        "path": "phases/02-ml-fundamentals/17-imbalanced-data"
+      },
+      {
+        "slug": "18-feature-selection",
+        "title": "Feature Selection",
+        "path": "phases/02-ml-fundamentals/18-feature-selection"
+      }
+    ]
+  },
+  {
+    "id": "03-deep-learning-core",
+    "phaseNum": 3,
+    "title": "Deep Learning Core",
+    "lessonCount": 13,
+    "lessons": [
+      {
+        "slug": "01-the-perceptron",
+        "title": "The Perceptron",
+        "path": "phases/03-deep-learning-core/01-the-perceptron"
+      },
+      {
+        "slug": "02-multi-layer-networks",
+        "title": "Multi Layer Networks",
+        "path": "phases/03-deep-learning-core/02-multi-layer-networks"
+      },
+      {
+        "slug": "03-backpropagation",
+        "title": "Backpropagation",
+        "path": "phases/03-deep-learning-core/03-backpropagation"
+      },
+      {
+        "slug": "04-activation-functions",
+        "title": "Activation Functions",
+        "path": "phases/03-deep-learning-core/04-activation-functions"
+      },
+      {
+        "slug": "05-loss-functions",
+        "title": "Loss Functions",
+        "path": "phases/03-deep-learning-core/05-loss-functions"
+      },
+      {
+        "slug": "06-optimizers",
+        "title": "Optimizers",
+        "path": "phases/03-deep-learning-core/06-optimizers"
+      },
+      {
+        "slug": "07-regularization",
+        "title": "Regularization",
+        "path": "phases/03-deep-learning-core/07-regularization"
+      },
+      {
+        "slug": "08-weight-initialization",
+        "title": "Weight Initialization",
+        "path": "phases/03-deep-learning-core/08-weight-initialization"
+      },
+      {
+        "slug": "09-learning-rate-schedules",
+        "title": "Learning Rate Schedules",
+        "path": "phases/03-deep-learning-core/09-learning-rate-schedules"
+      },
+      {
+        "slug": "10-mini-framework",
+        "title": "Mini Framework",
+        "path": "phases/03-deep-learning-core/10-mini-framework"
+      },
+      {
+        "slug": "11-intro-to-pytorch",
+        "title": "Intro To Pytorch",
+        "path": "phases/03-deep-learning-core/11-intro-to-pytorch"
+      },
+      {
+        "slug": "12-intro-to-jax",
+        "title": "Intro To Jax",
+        "path": "phases/03-deep-learning-core/12-intro-to-jax"
+      },
+      {
+        "slug": "13-debugging-neural-networks",
+        "title": "Debugging Neural Networks",
+        "path": "phases/03-deep-learning-core/13-debugging-neural-networks"
+      }
+    ]
+  },
+  {
+    "id": "04-computer-vision",
+    "phaseNum": 4,
+    "title": "Computer Vision",
+    "lessonCount": 28,
+    "lessons": [
+      {
+        "slug": "01-image-fundamentals",
+        "title": "Image Fundamentals",
+        "path": "phases/04-computer-vision/01-image-fundamentals"
+      },
+      {
+        "slug": "02-convolutions-from-scratch",
+        "title": "Convolutions From Scratch",
+        "path": "phases/04-computer-vision/02-convolutions-from-scratch"
+      },
+      {
+        "slug": "03-cnns-lenet-to-resnet",
+        "title": "Cnns Lenet To Resnet",
+        "path": "phases/04-computer-vision/03-cnns-lenet-to-resnet"
+      },
+      {
+        "slug": "04-image-classification",
+        "title": "Image Classification",
+        "path": "phases/04-computer-vision/04-image-classification"
+      },
+      {
+        "slug": "05-transfer-learning",
+        "title": "Transfer Learning",
+        "path": "phases/04-computer-vision/05-transfer-learning"
+      },
+      {
+        "slug": "06-object-detection-yolo",
+        "title": "Object Detection Yolo",
+        "path": "phases/04-computer-vision/06-object-detection-yolo"
+      },
+      {
+        "slug": "07-semantic-segmentation-unet",
+        "title": "Semantic Segmentation Unet",
+        "path": "phases/04-computer-vision/07-semantic-segmentation-unet"
+      },
+      {
+        "slug": "08-instance-segmentation-mask-rcnn",
+        "title": "Instance Segmentation Mask Rcnn",
+        "path": "phases/04-computer-vision/08-instance-segmentation-mask-rcnn"
+      },
+      {
+        "slug": "09-image-generation-gans",
+        "title": "Image Generation Gans",
+        "path": "phases/04-computer-vision/09-image-generation-gans"
+      },
+      {
+        "slug": "10-image-generation-diffusion",
+        "title": "Image Generation Diffusion",
+        "path": "phases/04-computer-vision/10-image-generation-diffusion"
+      },
+      {
+        "slug": "11-stable-diffusion",
+        "title": "Stable Diffusion",
+        "path": "phases/04-computer-vision/11-stable-diffusion"
+      },
+      {
+        "slug": "12-video-understanding",
+        "title": "Video Understanding",
+        "path": "phases/04-computer-vision/12-video-understanding"
+      },
+      {
+        "slug": "13-3d-vision-nerf",
+        "title": "3d Vision Nerf",
+        "path": "phases/04-computer-vision/13-3d-vision-nerf"
+      },
+      {
+        "slug": "14-vision-transformers",
+        "title": "Vision Transformers",
+        "path": "phases/04-computer-vision/14-vision-transformers"
+      },
+      {
+        "slug": "15-real-time-edge",
+        "title": "Real Time Edge",
+        "path": "phases/04-computer-vision/15-real-time-edge"
+      },
+      {
+        "slug": "16-vision-pipeline-capstone",
+        "title": "Vision Pipeline Capstone",
+        "path": "phases/04-computer-vision/16-vision-pipeline-capstone"
+      },
+      {
+        "slug": "17-self-supervised-vision",
+        "title": "Self Supervised Vision",
+        "path": "phases/04-computer-vision/17-self-supervised-vision"
+      },
+      {
+        "slug": "18-open-vocab-clip",
+        "title": "Open Vocab Clip",
+        "path": "phases/04-computer-vision/18-open-vocab-clip"
+      },
+      {
+        "slug": "19-ocr-document-understanding",
+        "title": "Ocr Document Understanding",
+        "path": "phases/04-computer-vision/19-ocr-document-understanding"
+      },
+      {
+        "slug": "20-image-retrieval-metric",
+        "title": "Image Retrieval Metric",
+        "path": "phases/04-computer-vision/20-image-retrieval-metric"
+      },
+      {
+        "slug": "21-keypoint-pose",
+        "title": "Keypoint Pose",
+        "path": "phases/04-computer-vision/21-keypoint-pose"
+      },
+      {
+        "slug": "22-3d-gaussian-splatting",
+        "title": "3d Gaussian Splatting",
+        "path": "phases/04-computer-vision/22-3d-gaussian-splatting"
+      },
+      {
+        "slug": "23-diffusion-transformers-rectified-flow",
+        "title": "Diffusion Transformers Rectified Flow",
+        "path": "phases/04-computer-vision/23-diffusion-transformers-rectified-flow"
+      },
+      {
+        "slug": "24-sam3-open-vocab-segmentation",
+        "title": "Sam3 Open Vocab Segmentation",
+        "path": "phases/04-computer-vision/24-sam3-open-vocab-segmentation"
+      },
+      {
+        "slug": "25-vision-language-models",
+        "title": "Vision Language Models",
+        "path": "phases/04-computer-vision/25-vision-language-models"
+      },
+      {
+        "slug": "26-monocular-depth",
+        "title": "Monocular Depth",
+        "path": "phases/04-computer-vision/26-monocular-depth"
+      },
+      {
+        "slug": "27-multi-object-tracking",
+        "title": "Multi Object Tracking",
+        "path": "phases/04-computer-vision/27-multi-object-tracking"
+      },
+      {
+        "slug": "28-world-models-video-diffusion",
+        "title": "World Models Video Diffusion",
+        "path": "phases/04-computer-vision/28-world-models-video-diffusion"
+      }
+    ]
+  },
+  {
+    "id": "05-nlp-foundations-to-advanced",
+    "phaseNum": 5,
+    "title": "Nlp Foundations To Advanced",
+    "lessonCount": 29,
+    "lessons": [
+      {
+        "slug": "01-text-processing",
+        "title": "Text Processing",
+        "path": "phases/05-nlp-foundations-to-advanced/01-text-processing"
+      },
+      {
+        "slug": "02-bag-of-words-tfidf",
+        "title": "Bag Of Words Tfidf",
+        "path": "phases/05-nlp-foundations-to-advanced/02-bag-of-words-tfidf"
+      },
+      {
+        "slug": "03-word-embeddings-word2vec",
+        "title": "Word Embeddings Word2vec",
+        "path": "phases/05-nlp-foundations-to-advanced/03-word-embeddings-word2vec"
+      },
+      {
+        "slug": "04-glove-fasttext-subword",
+        "title": "Glove Fasttext Subword",
+        "path": "phases/05-nlp-foundations-to-advanced/04-glove-fasttext-subword"
+      },
+      {
+        "slug": "05-sentiment-analysis",
+        "title": "Sentiment Analysis",
+        "path": "phases/05-nlp-foundations-to-advanced/05-sentiment-analysis"
+      },
+      {
+        "slug": "06-named-entity-recognition",
+        "title": "Named Entity Recognition",
+        "path": "phases/05-nlp-foundations-to-advanced/06-named-entity-recognition"
+      },
+      {
+        "slug": "07-pos-tagging-parsing",
+        "title": "Pos Tagging Parsing",
+        "path": "phases/05-nlp-foundations-to-advanced/07-pos-tagging-parsing"
+      },
+      {
+        "slug": "08-cnns-rnns-for-text",
+        "title": "Cnns Rnns For Text",
+        "path": "phases/05-nlp-foundations-to-advanced/08-cnns-rnns-for-text"
+      },
+      {
+        "slug": "09-sequence-to-sequence",
+        "title": "Sequence To Sequence",
+        "path": "phases/05-nlp-foundations-to-advanced/09-sequence-to-sequence"
+      },
+      {
+        "slug": "10-attention-mechanism",
+        "title": "Attention Mechanism",
+        "path": "phases/05-nlp-foundations-to-advanced/10-attention-mechanism"
+      },
+      {
+        "slug": "11-machine-translation",
+        "title": "Machine Translation",
+        "path": "phases/05-nlp-foundations-to-advanced/11-machine-translation"
+      },
+      {
+        "slug": "12-text-summarization",
+        "title": "Text Summarization",
+        "path": "phases/05-nlp-foundations-to-advanced/12-text-summarization"
+      },
+      {
+        "slug": "13-question-answering",
+        "title": "Question Answering",
+        "path": "phases/05-nlp-foundations-to-advanced/13-question-answering"
+      },
+      {
+        "slug": "14-information-retrieval-search",
+        "title": "Information Retrieval Search",
+        "path": "phases/05-nlp-foundations-to-advanced/14-information-retrieval-search"
+      },
+      {
+        "slug": "15-topic-modeling",
+        "title": "Topic Modeling",
+        "path": "phases/05-nlp-foundations-to-advanced/15-topic-modeling"
+      },
+      {
+        "slug": "16-text-generation-pre-transformer",
+        "title": "Text Generation Pre Transformer",
+        "path": "phases/05-nlp-foundations-to-advanced/16-text-generation-pre-transformer"
+      },
+      {
+        "slug": "17-chatbots-rule-to-neural",
+        "title": "Chatbots Rule To Neural",
+        "path": "phases/05-nlp-foundations-to-advanced/17-chatbots-rule-to-neural"
+      },
+      {
+        "slug": "18-multilingual-nlp",
+        "title": "Multilingual Nlp",
+        "path": "phases/05-nlp-foundations-to-advanced/18-multilingual-nlp"
+      },
+      {
+        "slug": "19-subword-tokenization",
+        "title": "Subword Tokenization",
+        "path": "phases/05-nlp-foundations-to-advanced/19-subword-tokenization"
+      },
+      {
+        "slug": "20-structured-outputs-constrained-decoding",
+        "title": "Structured Outputs Constrained Decoding",
+        "path": "phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding"
+      },
+      {
+        "slug": "21-nli-textual-entailment",
+        "title": "Nli Textual Entailment",
+        "path": "phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment"
+      },
+      {
+        "slug": "22-embedding-models-deep-dive",
+        "title": "Embedding Models Deep Dive",
+        "path": "phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive"
+      },
+      {
+        "slug": "23-chunking-strategies-rag",
+        "title": "Chunking Strategies Rag",
+        "path": "phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag"
+      },
+      {
+        "slug": "24-coreference-resolution",
+        "title": "Coreference Resolution",
+        "path": "phases/05-nlp-foundations-to-advanced/24-coreference-resolution"
+      },
+      {
+        "slug": "25-entity-linking",
+        "title": "Entity Linking",
+        "path": "phases/05-nlp-foundations-to-advanced/25-entity-linking"
+      },
+      {
+        "slug": "26-relation-extraction-kg",
+        "title": "Relation Extraction Kg",
+        "path": "phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg"
+      },
+      {
+        "slug": "27-llm-evaluation-frameworks",
+        "title": "Llm Evaluation Frameworks",
+        "path": "phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks"
+      },
+      {
+        "slug": "28-long-context-evaluation",
+        "title": "Long Context Evaluation",
+        "path": "phases/05-nlp-foundations-to-advanced/28-long-context-evaluation"
+      },
+      {
+        "slug": "29-dialogue-state-tracking",
+        "title": "Dialogue State Tracking",
+        "path": "phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking"
+      }
+    ]
+  },
+  {
+    "id": "06-speech-and-audio",
+    "phaseNum": 6,
+    "title": "Speech And Audio",
+    "lessonCount": 17,
+    "lessons": [
+      {
+        "slug": "01-audio-fundamentals",
+        "title": "Audio Fundamentals",
+        "path": "phases/06-speech-and-audio/01-audio-fundamentals"
+      },
+      {
+        "slug": "02-spectrograms-mel-features",
+        "title": "Spectrograms Mel Features",
+        "path": "phases/06-speech-and-audio/02-spectrograms-mel-features"
+      },
+      {
+        "slug": "03-audio-classification",
+        "title": "Audio Classification",
+        "path": "phases/06-speech-and-audio/03-audio-classification"
+      },
+      {
+        "slug": "04-speech-recognition-asr",
+        "title": "Speech Recognition Asr",
+        "path": "phases/06-speech-and-audio/04-speech-recognition-asr"
+      },
+      {
+        "slug": "05-whisper-architecture-finetuning",
+        "title": "Whisper Architecture Finetuning",
+        "path": "phases/06-speech-and-audio/05-whisper-architecture-finetuning"
+      },
+      {
+        "slug": "06-speaker-recognition-verification",
+        "title": "Speaker Recognition Verification",
+        "path": "phases/06-speech-and-audio/06-speaker-recognition-verification"
+      },
+      {
+        "slug": "07-text-to-speech",
+        "title": "Text To Speech",
+        "path": "phases/06-speech-and-audio/07-text-to-speech"
+      },
+      {
+        "slug": "08-voice-cloning-conversion",
+        "title": "Voice Cloning Conversion",
+        "path": "phases/06-speech-and-audio/08-voice-cloning-conversion"
+      },
+      {
+        "slug": "09-music-generation",
+        "title": "Music Generation",
+        "path": "phases/06-speech-and-audio/09-music-generation"
+      },
+      {
+        "slug": "10-audio-language-models",
+        "title": "Audio Language Models",
+        "path": "phases/06-speech-and-audio/10-audio-language-models"
+      },
+      {
+        "slug": "11-real-time-audio-processing",
+        "title": "Real Time Audio Processing",
+        "path": "phases/06-speech-and-audio/11-real-time-audio-processing"
+      },
+      {
+        "slug": "12-voice-assistant-pipeline",
+        "title": "Voice Assistant Pipeline",
+        "path": "phases/06-speech-and-audio/12-voice-assistant-pipeline"
+      },
+      {
+        "slug": "13-neural-audio-codecs",
+        "title": "Neural Audio Codecs",
+        "path": "phases/06-speech-and-audio/13-neural-audio-codecs"
+      },
+      {
+        "slug": "14-voice-activity-detection-turn-taking",
+        "title": "Voice Activity Detection Turn Taking",
+        "path": "phases/06-speech-and-audio/14-voice-activity-detection-turn-taking"
+      },
+      {
+        "slug": "15-streaming-speech-to-speech-moshi-hibiki",
+        "title": "Streaming Speech To Speech Moshi Hibiki",
+        "path": "phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki"
+      },
+      {
+        "slug": "16-anti-spoofing-audio-watermarking",
+        "title": "Anti Spoofing Audio Watermarking",
+        "path": "phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking"
+      },
+      {
+        "slug": "17-audio-evaluation-metrics",
+        "title": "Audio Evaluation Metrics",
+        "path": "phases/06-speech-and-audio/17-audio-evaluation-metrics"
+      }
+    ]
+  },
+  {
+    "id": "07-transformers-deep-dive",
+    "phaseNum": 7,
+    "title": "Transformers Deep Dive",
+    "lessonCount": 16,
+    "lessons": [
+      {
+        "slug": "01-why-transformers",
+        "title": "Why Transformers",
+        "path": "phases/07-transformers-deep-dive/01-why-transformers"
+      },
+      {
+        "slug": "02-self-attention-from-scratch",
+        "title": "Self Attention From Scratch",
+        "path": "phases/07-transformers-deep-dive/02-self-attention-from-scratch"
+      },
+      {
+        "slug": "03-multi-head-attention",
+        "title": "Multi Head Attention",
+        "path": "phases/07-transformers-deep-dive/03-multi-head-attention"
+      },
+      {
+        "slug": "04-positional-encoding",
+        "title": "Positional Encoding",
+        "path": "phases/07-transformers-deep-dive/04-positional-encoding"
+      },
+      {
+        "slug": "05-full-transformer",
+        "title": "Full Transformer",
+        "path": "phases/07-transformers-deep-dive/05-full-transformer"
+      },
+      {
+        "slug": "06-bert-masked-language-modeling",
+        "title": "Bert Masked Language Modeling",
+        "path": "phases/07-transformers-deep-dive/06-bert-masked-language-modeling"
+      },
+      {
+        "slug": "07-gpt-causal-language-modeling",
+        "title": "Gpt Causal Language Modeling",
+        "path": "phases/07-transformers-deep-dive/07-gpt-causal-language-modeling"
+      },
+      {
+        "slug": "08-t5-bart-encoder-decoder",
+        "title": "T5 Bart Encoder Decoder",
+        "path": "phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder"
+      },
+      {
+        "slug": "09-vision-transformers",
+        "title": "Vision Transformers",
+        "path": "phases/07-transformers-deep-dive/09-vision-transformers"
+      },
+      {
+        "slug": "10-audio-transformers-whisper",
+        "title": "Audio Transformers Whisper",
+        "path": "phases/07-transformers-deep-dive/10-audio-transformers-whisper"
+      },
+      {
+        "slug": "11-mixture-of-experts",
+        "title": "Mixture Of Experts",
+        "path": "phases/07-transformers-deep-dive/11-mixture-of-experts"
+      },
+      {
+        "slug": "12-kv-cache-flash-attention",
+        "title": "Kv Cache Flash Attention",
+        "path": "phases/07-transformers-deep-dive/12-kv-cache-flash-attention"
+      },
+      {
+        "slug": "13-scaling-laws",
+        "title": "Scaling Laws",
+        "path": "phases/07-transformers-deep-dive/13-scaling-laws"
+      },
+      {
+        "slug": "14-build-a-transformer-capstone",
+        "title": "Build A Transformer Capstone",
+        "path": "phases/07-transformers-deep-dive/14-build-a-transformer-capstone"
+      },
+      {
+        "slug": "15-attention-variants",
+        "title": "Attention Variants",
+        "path": "phases/07-transformers-deep-dive/15-attention-variants"
+      },
+      {
+        "slug": "16-speculative-decoding",
+        "title": "Speculative Decoding",
+        "path": "phases/07-transformers-deep-dive/16-speculative-decoding"
+      }
+    ]
+  },
+  {
+    "id": "08-generative-ai",
+    "phaseNum": 8,
+    "title": "Generative Ai",
+    "lessonCount": 15,
+    "lessons": [
+      {
+        "slug": "01-generative-models-taxonomy-history",
+        "title": "Generative Models Taxonomy History",
+        "path": "phases/08-generative-ai/01-generative-models-taxonomy-history"
+      },
+      {
+        "slug": "02-autoencoders-vae",
+        "title": "Autoencoders Vae",
+        "path": "phases/08-generative-ai/02-autoencoders-vae"
+      },
+      {
+        "slug": "03-gans-generator-discriminator",
+        "title": "Gans Generator Discriminator",
+        "path": "phases/08-generative-ai/03-gans-generator-discriminator"
+      },
+      {
+        "slug": "04-conditional-gans-pix2pix",
+        "title": "Conditional Gans Pix2pix",
+        "path": "phases/08-generative-ai/04-conditional-gans-pix2pix"
+      },
+      {
+        "slug": "05-stylegan",
+        "title": "Stylegan",
+        "path": "phases/08-generative-ai/05-stylegan"
+      },
+      {
+        "slug": "06-diffusion-ddpm-from-scratch",
+        "title": "Diffusion Ddpm From Scratch",
+        "path": "phases/08-generative-ai/06-diffusion-ddpm-from-scratch"
+      },
+      {
+        "slug": "07-latent-diffusion-stable-diffusion",
+        "title": "Latent Diffusion Stable Diffusion",
+        "path": "phases/08-generative-ai/07-latent-diffusion-stable-diffusion"
+      },
+      {
+        "slug": "08-controlnet-lora-conditioning",
+        "title": "Controlnet Lora Conditioning",
+        "path": "phases/08-generative-ai/08-controlnet-lora-conditioning"
+      },
+      {
+        "slug": "09-inpainting-outpainting-editing",
+        "title": "Inpainting Outpainting Editing",
+        "path": "phases/08-generative-ai/09-inpainting-outpainting-editing"
+      },
+      {
+        "slug": "10-video-generation",
+        "title": "Video Generation",
+        "path": "phases/08-generative-ai/10-video-generation"
+      },
+      {
+        "slug": "11-audio-generation",
+        "title": "Audio Generation",
+        "path": "phases/08-generative-ai/11-audio-generation"
+      },
+      {
+        "slug": "12-3d-generation",
+        "title": "3d Generation",
+        "path": "phases/08-generative-ai/12-3d-generation"
+      },
+      {
+        "slug": "13-flow-matching-rectified-flows",
+        "title": "Flow Matching Rectified Flows",
+        "path": "phases/08-generative-ai/13-flow-matching-rectified-flows"
+      },
+      {
+        "slug": "14-evaluation-fid-clip-score",
+        "title": "Evaluation Fid Clip Score",
+        "path": "phases/08-generative-ai/14-evaluation-fid-clip-score"
+      },
+      {
+        "slug": "19-visual-autoregressive-var",
+        "title": "Visual Autoregressive Var",
+        "path": "phases/08-generative-ai/19-visual-autoregressive-var"
+      }
+    ]
+  },
+  {
+    "id": "09-reinforcement-learning",
+    "phaseNum": 9,
+    "title": "Reinforcement Learning",
+    "lessonCount": 12,
+    "lessons": [
+      {
+        "slug": "01-mdps-states-actions-rewards",
+        "title": "Mdps States Actions Rewards",
+        "path": "phases/09-reinforcement-learning/01-mdps-states-actions-rewards"
+      },
+      {
+        "slug": "02-dynamic-programming",
+        "title": "Dynamic Programming",
+        "path": "phases/09-reinforcement-learning/02-dynamic-programming"
+      },
+      {
+        "slug": "03-monte-carlo-methods",
+        "title": "Monte Carlo Methods",
+        "path": "phases/09-reinforcement-learning/03-monte-carlo-methods"
+      },
+      {
+        "slug": "04-q-learning-sarsa",
+        "title": "Q Learning Sarsa",
+        "path": "phases/09-reinforcement-learning/04-q-learning-sarsa"
+      },
+      {
+        "slug": "05-dqn",
+        "title": "Dqn",
+        "path": "phases/09-reinforcement-learning/05-dqn"
+      },
+      {
+        "slug": "06-policy-gradients-reinforce",
+        "title": "Policy Gradients Reinforce",
+        "path": "phases/09-reinforcement-learning/06-policy-gradients-reinforce"
+      },
+      {
+        "slug": "07-actor-critic-a2c-a3c",
+        "title": "Actor Critic A2c A3c",
+        "path": "phases/09-reinforcement-learning/07-actor-critic-a2c-a3c"
+      },
+      {
+        "slug": "08-ppo",
+        "title": "Ppo",
+        "path": "phases/09-reinforcement-learning/08-ppo"
+      },
+      {
+        "slug": "09-reward-modeling-rlhf",
+        "title": "Reward Modeling Rlhf",
+        "path": "phases/09-reinforcement-learning/09-reward-modeling-rlhf"
+      },
+      {
+        "slug": "10-multi-agent-rl",
+        "title": "Multi Agent Rl",
+        "path": "phases/09-reinforcement-learning/10-multi-agent-rl"
+      },
+      {
+        "slug": "11-sim-to-real-transfer",
+        "title": "Sim To Real Transfer",
+        "path": "phases/09-reinforcement-learning/11-sim-to-real-transfer"
+      },
+      {
+        "slug": "12-rl-for-games",
+        "title": "Rl For Games",
+        "path": "phases/09-reinforcement-learning/12-rl-for-games"
+      }
+    ]
+  },
+  {
+    "id": "10-llms-from-scratch",
+    "phaseNum": 10,
+    "title": "Llms From Scratch",
+    "lessonCount": 25,
+    "lessons": [
+      {
+        "slug": "01-tokenizers",
+        "title": "Tokenizers",
+        "path": "phases/10-llms-from-scratch/01-tokenizers"
+      },
+      {
+        "slug": "02-building-a-tokenizer",
+        "title": "Building A Tokenizer",
+        "path": "phases/10-llms-from-scratch/02-building-a-tokenizer"
+      },
+      {
+        "slug": "03-data-pipelines",
+        "title": "Data Pipelines",
+        "path": "phases/10-llms-from-scratch/03-data-pipelines"
+      },
+      {
+        "slug": "04-pre-training-mini-gpt",
+        "title": "Pre Training Mini Gpt",
+        "path": "phases/10-llms-from-scratch/04-pre-training-mini-gpt"
+      },
+      {
+        "slug": "05-scaling-distributed",
+        "title": "Scaling Distributed",
+        "path": "phases/10-llms-from-scratch/05-scaling-distributed"
+      },
+      {
+        "slug": "06-instruction-tuning-sft",
+        "title": "Instruction Tuning Sft",
+        "path": "phases/10-llms-from-scratch/06-instruction-tuning-sft"
+      },
+      {
+        "slug": "07-rlhf",
+        "title": "Rlhf",
+        "path": "phases/10-llms-from-scratch/07-rlhf"
+      },
+      {
+        "slug": "08-dpo",
+        "title": "Dpo",
+        "path": "phases/10-llms-from-scratch/08-dpo"
+      },
+      {
+        "slug": "09-constitutional-ai-self-improvement",
+        "title": "Constitutional Ai Self Improvement",
+        "path": "phases/10-llms-from-scratch/09-constitutional-ai-self-improvement"
+      },
+      {
+        "slug": "10-evaluation",
+        "title": "Evaluation",
+        "path": "phases/10-llms-from-scratch/10-evaluation"
+      },
+      {
+        "slug": "11-quantization",
+        "title": "Quantization",
+        "path": "phases/10-llms-from-scratch/11-quantization"
+      },
+      {
+        "slug": "12-inference-optimization",
+        "title": "Inference Optimization",
+        "path": "phases/10-llms-from-scratch/12-inference-optimization"
+      },
+      {
+        "slug": "13-building-complete-llm-pipeline",
+        "title": "Building Complete Llm Pipeline",
+        "path": "phases/10-llms-from-scratch/13-building-complete-llm-pipeline"
+      },
+      {
+        "slug": "14-open-models-architecture-walkthroughs",
+        "title": "Open Models Architecture Walkthroughs",
+        "path": "phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs"
+      },
+      {
+        "slug": "15-speculative-decoding-eagle",
+        "title": "Speculative Decoding Eagle",
+        "path": "phases/10-llms-from-scratch/15-speculative-decoding-eagle"
+      },
+      {
+        "slug": "15-speculative-decoding-eagle3",
+        "title": "Speculative Decoding Eagle3",
+        "path": "phases/10-llms-from-scratch/15-speculative-decoding-eagle3"
+      },
+      {
+        "slug": "16-differential-attention-v2",
+        "title": "Differential Attention V2",
+        "path": "phases/10-llms-from-scratch/16-differential-attention-v2"
+      },
+      {
+        "slug": "17-native-sparse-attention",
+        "title": "Native Sparse Attention",
+        "path": "phases/10-llms-from-scratch/17-native-sparse-attention"
+      },
+      {
+        "slug": "18-multi-token-prediction",
+        "title": "Multi Token Prediction",
+        "path": "phases/10-llms-from-scratch/18-multi-token-prediction"
+      },
+      {
+        "slug": "19-dualpipe-parallelism",
+        "title": "Dualpipe Parallelism",
+        "path": "phases/10-llms-from-scratch/19-dualpipe-parallelism"
+      },
+      {
+        "slug": "20-deepseek-v3-walkthrough",
+        "title": "Deepseek V3 Walkthrough",
+        "path": "phases/10-llms-from-scratch/20-deepseek-v3-walkthrough"
+      },
+      {
+        "slug": "21-jamba-hybrid-ssm-transformer",
+        "title": "Jamba Hybrid Ssm Transformer",
+        "path": "phases/10-llms-from-scratch/21-jamba-hybrid-ssm-transformer"
+      },
+      {
+        "slug": "22-async-hogwild-inference",
+        "title": "Async Hogwild Inference",
+        "path": "phases/10-llms-from-scratch/22-async-hogwild-inference"
+      },
+      {
+        "slug": "25-speculative-decoding",
+        "title": "Speculative Decoding",
+        "path": "phases/10-llms-from-scratch/25-speculative-decoding"
+      },
+      {
+        "slug": "34-gradient-checkpointing",
+        "title": "Gradient Checkpointing",
+        "path": "phases/10-llms-from-scratch/34-gradient-checkpointing"
+      }
+    ]
+  },
+  {
+    "id": "11-llm-engineering",
+    "phaseNum": 11,
+    "title": "Llm Engineering",
+    "lessonCount": 17,
+    "lessons": [
+      {
+        "slug": "01-prompt-engineering",
+        "title": "Prompt Engineering",
+        "path": "phases/11-llm-engineering/01-prompt-engineering"
+      },
+      {
+        "slug": "02-few-shot-cot",
+        "title": "Few Shot Cot",
+        "path": "phases/11-llm-engineering/02-few-shot-cot"
+      },
+      {
+        "slug": "03-structured-outputs",
+        "title": "Structured Outputs",
+        "path": "phases/11-llm-engineering/03-structured-outputs"
+      },
+      {
+        "slug": "04-embeddings",
+        "title": "Embeddings",
+        "path": "phases/11-llm-engineering/04-embeddings"
+      },
+      {
+        "slug": "05-context-engineering",
+        "title": "Context Engineering",
+        "path": "phases/11-llm-engineering/05-context-engineering"
+      },
+      {
+        "slug": "06-rag",
+        "title": "Rag",
+        "path": "phases/11-llm-engineering/06-rag"
+      },
+      {
+        "slug": "07-advanced-rag",
+        "title": "Advanced Rag",
+        "path": "phases/11-llm-engineering/07-advanced-rag"
+      },
+      {
+        "slug": "08-fine-tuning-lora",
+        "title": "Fine Tuning Lora",
+        "path": "phases/11-llm-engineering/08-fine-tuning-lora"
+      },
+      {
+        "slug": "09-function-calling",
+        "title": "Function Calling",
+        "path": "phases/11-llm-engineering/09-function-calling"
+      },
+      {
+        "slug": "10-evaluation",
+        "title": "Evaluation",
+        "path": "phases/11-llm-engineering/10-evaluation"
+      },
+      {
+        "slug": "11-caching-cost",
+        "title": "Caching Cost",
+        "path": "phases/11-llm-engineering/11-caching-cost"
+      },
+      {
+        "slug": "12-guardrails",
+        "title": "Guardrails",
+        "path": "phases/11-llm-engineering/12-guardrails"
+      },
+      {
+        "slug": "13-production-app",
+        "title": "Production App",
+        "path": "phases/11-llm-engineering/13-production-app"
+      },
+      {
+        "slug": "14-model-context-protocol",
+        "title": "Model Context Protocol",
+        "path": "phases/11-llm-engineering/14-model-context-protocol"
+      },
+      {
+        "slug": "15-prompt-caching",
+        "title": "Prompt Caching",
+        "path": "phases/11-llm-engineering/15-prompt-caching"
+      },
+      {
+        "slug": "16-langgraph-state-machines",
+        "title": "Langgraph State Machines",
+        "path": "phases/11-llm-engineering/16-langgraph-state-machines"
+      },
+      {
+        "slug": "17-agent-framework-tradeoffs",
+        "title": "Agent Framework Tradeoffs",
+        "path": "phases/11-llm-engineering/17-agent-framework-tradeoffs"
+      }
+    ]
+  },
+  {
+    "id": "12-multimodal-ai",
+    "phaseNum": 12,
+    "title": "Multimodal Ai",
+    "lessonCount": 25,
+    "lessons": [
+      {
+        "slug": "01-vision-transformer-patch-tokens",
+        "title": "Vision Transformer Patch Tokens",
+        "path": "phases/12-multimodal-ai/01-vision-transformer-patch-tokens"
+      },
+      {
+        "slug": "02-clip-contrastive-pretraining",
+        "title": "Clip Contrastive Pretraining",
+        "path": "phases/12-multimodal-ai/02-clip-contrastive-pretraining"
+      },
+      {
+        "slug": "03-blip2-qformer-bridge",
+        "title": "Blip2 Qformer Bridge",
+        "path": "phases/12-multimodal-ai/03-blip2-qformer-bridge"
+      },
+      {
+        "slug": "04-flamingo-gated-cross-attention",
+        "title": "Flamingo Gated Cross Attention",
+        "path": "phases/12-multimodal-ai/04-flamingo-gated-cross-attention"
+      },
+      {
+        "slug": "05-llava-visual-instruction-tuning",
+        "title": "Llava Visual Instruction Tuning",
+        "path": "phases/12-multimodal-ai/05-llava-visual-instruction-tuning"
+      },
+      {
+        "slug": "06-any-resolution-patch-n-pack",
+        "title": "Any Resolution Patch N Pack",
+        "path": "phases/12-multimodal-ai/06-any-resolution-patch-n-pack"
+      },
+      {
+        "slug": "07-open-weight-vlm-recipes",
+        "title": "Open Weight Vlm Recipes",
+        "path": "phases/12-multimodal-ai/07-open-weight-vlm-recipes"
+      },
+      {
+        "slug": "08-llava-onevision-single-multi-video",
+        "title": "Llava Onevision Single Multi Video",
+        "path": "phases/12-multimodal-ai/08-llava-onevision-single-multi-video"
+      },
+      {
+        "slug": "09-qwen-vl-family-dynamic-fps",
+        "title": "Qwen Vl Family Dynamic Fps",
+        "path": "phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps"
+      },
+      {
+        "slug": "10-internvl3-native-multimodal",
+        "title": "Internvl3 Native Multimodal",
+        "path": "phases/12-multimodal-ai/10-internvl3-native-multimodal"
+      },
+      {
+        "slug": "11-chameleon-early-fusion-tokens",
+        "title": "Chameleon Early Fusion Tokens",
+        "path": "phases/12-multimodal-ai/11-chameleon-early-fusion-tokens"
+      },
+      {
+        "slug": "12-emu3-next-token-for-generation",
+        "title": "Emu3 Next Token For Generation",
+        "path": "phases/12-multimodal-ai/12-emu3-next-token-for-generation"
+      },
+      {
+        "slug": "13-transfusion-autoregressive-diffusion",
+        "title": "Transfusion Autoregressive Diffusion",
+        "path": "phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion"
+      },
+      {
+        "slug": "14-show-o-discrete-diffusion-unified",
+        "title": "Show O Discrete Diffusion Unified",
+        "path": "phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified"
+      },
+      {
+        "slug": "15-janus-pro-decoupled-encoders",
+        "title": "Janus Pro Decoupled Encoders",
+        "path": "phases/12-multimodal-ai/15-janus-pro-decoupled-encoders"
+      },
+      {
+        "slug": "16-mio-any-to-any-streaming",
+        "title": "Mio Any To Any Streaming",
+        "path": "phases/12-multimodal-ai/16-mio-any-to-any-streaming"
+      },
+      {
+        "slug": "17-video-language-temporal-grounding",
+        "title": "Video Language Temporal Grounding",
+        "path": "phases/12-multimodal-ai/17-video-language-temporal-grounding"
+      },
+      {
+        "slug": "18-long-video-million-token",
+        "title": "Long Video Million Token",
+        "path": "phases/12-multimodal-ai/18-long-video-million-token"
+      },
+      {
+        "slug": "19-audio-language-whisper-to-af3",
+        "title": "Audio Language Whisper To Af3",
+        "path": "phases/12-multimodal-ai/19-audio-language-whisper-to-af3"
+      },
+      {
+        "slug": "20-omni-models-thinker-talker",
+        "title": "Omni Models Thinker Talker",
+        "path": "phases/12-multimodal-ai/20-omni-models-thinker-talker"
+      },
+      {
+        "slug": "21-embodied-vlas-openvla-pi0-groot",
+        "title": "Embodied Vlas Openvla Pi0 Groot",
+        "path": "phases/12-multimodal-ai/21-embodied-vlas-openvla-pi0-groot"
+      },
+      {
+        "slug": "22-document-diagram-understanding",
+        "title": "Document Diagram Understanding",
+        "path": "phases/12-multimodal-ai/22-document-diagram-understanding"
+      },
+      {
+        "slug": "23-colpali-vision-native-rag",
+        "title": "Colpali Vision Native Rag",
+        "path": "phases/12-multimodal-ai/23-colpali-vision-native-rag"
+      },
+      {
+        "slug": "24-multimodal-rag-cross-modal",
+        "title": "Multimodal Rag Cross Modal",
+        "path": "phases/12-multimodal-ai/24-multimodal-rag-cross-modal"
+      },
+      {
+        "slug": "25-multimodal-agents-computer-use",
+        "title": "Multimodal Agents Computer Use",
+        "path": "phases/12-multimodal-ai/25-multimodal-agents-computer-use"
+      }
+    ]
+  },
+  {
+    "id": "13-tools-and-protocols",
+    "phaseNum": 13,
+    "title": "Tools And Protocols",
+    "lessonCount": 31,
+    "lessons": [
+      {
+        "slug": "01-the-tool-interface",
+        "title": "The Tool Interface",
+        "path": "phases/13-tools-and-protocols/01-the-tool-interface"
+      },
+      {
+        "slug": "02-function-calling-deep-dive",
+        "title": "Function Calling Deep Dive",
+        "path": "phases/13-tools-and-protocols/02-function-calling-deep-dive"
+      },
+      {
+        "slug": "03-parallel-and-streaming-tool-calls",
+        "title": "Parallel And Streaming Tool Calls",
+        "path": "phases/13-tools-and-protocols/03-parallel-and-streaming-tool-calls"
+      },
+      {
+        "slug": "04-structured-output",
+        "title": "Structured Output",
+        "path": "phases/13-tools-and-protocols/04-structured-output"
+      },
+      {
+        "slug": "05-tool-schema-design",
+        "title": "Tool Schema Design",
+        "path": "phases/13-tools-and-protocols/05-tool-schema-design"
+      },
+      {
+        "slug": "06-mcp-fundamentals",
+        "title": "Mcp Fundamentals",
+        "path": "phases/13-tools-and-protocols/06-mcp-fundamentals"
+      },
+      {
+        "slug": "07-building-an-mcp-server",
+        "title": "Building An Mcp Server",
+        "path": "phases/13-tools-and-protocols/07-building-an-mcp-server"
+      },
+      {
+        "slug": "08-building-an-mcp-client",
+        "title": "Building An Mcp Client",
+        "path": "phases/13-tools-and-protocols/08-building-an-mcp-client"
+      },
+      {
+        "slug": "09-mcp-transports",
+        "title": "Mcp Transports",
+        "path": "phases/13-tools-and-protocols/09-mcp-transports"
+      },
+      {
+        "slug": "10-mcp-resources-and-prompts",
+        "title": "Mcp Resources And Prompts",
+        "path": "phases/13-tools-and-protocols/10-mcp-resources-and-prompts"
+      },
+      {
+        "slug": "11-mcp-sampling",
+        "title": "Mcp Sampling",
+        "path": "phases/13-tools-and-protocols/11-mcp-sampling"
+      },
+      {
+        "slug": "12-mcp-roots-and-elicitation",
+        "title": "Mcp Roots And Elicitation",
+        "path": "phases/13-tools-and-protocols/12-mcp-roots-and-elicitation"
+      },
+      {
+        "slug": "13-mcp-async-tasks",
+        "title": "Mcp Async Tasks",
+        "path": "phases/13-tools-and-protocols/13-mcp-async-tasks"
+      },
+      {
+        "slug": "14-mcp-apps",
+        "title": "Mcp Apps",
+        "path": "phases/13-tools-and-protocols/14-mcp-apps"
+      },
+      {
+        "slug": "15-mcp-security-tool-poisoning",
+        "title": "Mcp Security Tool Poisoning",
+        "path": "phases/13-tools-and-protocols/15-mcp-security-tool-poisoning"
+      },
+      {
+        "slug": "16-mcp-security-oauth-2-1",
+        "title": "Mcp Security Oauth 2 1",
+        "path": "phases/13-tools-and-protocols/16-mcp-security-oauth-2-1"
+      },
+      {
+        "slug": "17-mcp-gateways-and-registries",
+        "title": "Mcp Gateways And Registries",
+        "path": "phases/13-tools-and-protocols/17-mcp-gateways-and-registries"
+      },
+      {
+        "slug": "18-mcp-auth-production",
+        "title": "Mcp Auth Production",
+        "path": "phases/13-tools-and-protocols/18-mcp-auth-production"
+      },
+      {
+        "slug": "19-a2a-protocol",
+        "title": "A2a Protocol",
+        "path": "phases/13-tools-and-protocols/19-a2a-protocol"
+      },
+      {
+        "slug": "20-opentelemetry-genai",
+        "title": "Opentelemetry Genai",
+        "path": "phases/13-tools-and-protocols/20-opentelemetry-genai"
+      },
+      {
+        "slug": "21-llm-routing-layer",
+        "title": "Llm Routing Layer",
+        "path": "phases/13-tools-and-protocols/21-llm-routing-layer"
+      },
+      {
+        "slug": "22-skills-and-agent-sdks",
+        "title": "Skills And Agent Sdks",
+        "path": "phases/13-tools-and-protocols/22-skills-and-agent-sdks"
+      },
+      {
+        "slug": "23-capstone-tool-ecosystem",
+        "title": "Capstone Tool Ecosystem",
+        "path": "phases/13-tools-and-protocols/23-capstone-tool-ecosystem"
+      },
+      {
+        "slug": "24-skill-discovery-and-progressive-disclosure",
+        "title": "Skill Discovery And Progressive Disclosure",
+        "path": "phases/13-tools-and-protocols/24-skill-discovery-and-progressive-disclosure"
+      },
+      {
+        "slug": "25-skill-invocation-and-routing",
+        "title": "Skill Invocation And Routing",
+        "path": "phases/13-tools-and-protocols/25-skill-invocation-and-routing"
+      },
+      {
+        "slug": "26-skill-permissions-sandboxes-and-trust",
+        "title": "Skill Permissions Sandboxes And Trust",
+        "path": "phases/13-tools-and-protocols/26-skill-permissions-sandboxes-and-trust"
+      },
+      {
+        "slug": "27-skill-evals-packaging-and-portability",
+        "title": "Skill Evals Packaging And Portability",
+        "path": "phases/13-tools-and-protocols/27-skill-evals-packaging-and-portability"
+      },
+      {
+        "slug": "28-mcp-tool-contracts-and-content",
+        "title": "Mcp Tool Contracts And Content",
+        "path": "phases/13-tools-and-protocols/28-mcp-tool-contracts-and-content"
+      },
+      {
+        "slug": "29-mcp-reliability-cancellation-and-flow-control",
+        "title": "Mcp Reliability Cancellation And Flow Control",
+        "path": "phases/13-tools-and-protocols/29-mcp-reliability-cancellation-and-flow-control"
+      },
+      {
+        "slug": "30-mcp-registry-supply-chain-and-drift",
+        "title": "Mcp Registry Supply Chain And Drift",
+        "path": "phases/13-tools-and-protocols/30-mcp-registry-supply-chain-and-drift"
+      },
+      {
+        "slug": "31-mcp-conformance-versioning-and-operations",
+        "title": "Mcp Conformance Versioning And Operations",
+        "path": "phases/13-tools-and-protocols/31-mcp-conformance-versioning-and-operations"
+      }
+    ]
+  },
+  {
+    "id": "14-agent-engineering",
+    "phaseNum": 14,
+    "title": "Agent Engineering",
+    "lessonCount": 54,
+    "lessons": [
+      {
+        "slug": "01-the-agent-loop",
+        "title": "The Agent Loop",
+        "path": "phases/14-agent-engineering/01-the-agent-loop"
+      },
+      {
+        "slug": "02-rewoo-plan-and-execute",
+        "title": "Rewoo Plan And Execute",
+        "path": "phases/14-agent-engineering/02-rewoo-plan-and-execute"
+      },
+      {
+        "slug": "03-reflexion-verbal-rl",
+        "title": "Reflexion Verbal Rl",
+        "path": "phases/14-agent-engineering/03-reflexion-verbal-rl"
+      },
+      {
+        "slug": "04-tree-of-thoughts-lats",
+        "title": "Tree Of Thoughts Lats",
+        "path": "phases/14-agent-engineering/04-tree-of-thoughts-lats"
+      },
+      {
+        "slug": "05-self-refine-and-critic",
+        "title": "Self Refine And Critic",
+        "path": "phases/14-agent-engineering/05-self-refine-and-critic"
+      },
+      {
+        "slug": "06-tool-use-and-function-calling",
+        "title": "Tool Use And Function Calling",
+        "path": "phases/14-agent-engineering/06-tool-use-and-function-calling"
+      },
+      {
+        "slug": "07-memory-virtual-context-memgpt",
+        "title": "Memory Virtual Context Memgpt",
+        "path": "phases/14-agent-engineering/07-memory-virtual-context-memgpt"
+      },
+      {
+        "slug": "08-memory-blocks-sleep-time-compute",
+        "title": "Memory Blocks Sleep Time Compute",
+        "path": "phases/14-agent-engineering/08-memory-blocks-sleep-time-compute"
+      },
+      {
+        "slug": "09-hybrid-memory-mem0",
+        "title": "Hybrid Memory Mem0",
+        "path": "phases/14-agent-engineering/09-hybrid-memory-mem0"
+      },
+      {
+        "slug": "10-skill-libraries-voyager",
+        "title": "Skill Libraries Voyager",
+        "path": "phases/14-agent-engineering/10-skill-libraries-voyager"
+      },
+      {
+        "slug": "11-planning-htn-and-evolutionary",
+        "title": "Planning Htn And Evolutionary",
+        "path": "phases/14-agent-engineering/11-planning-htn-and-evolutionary"
+      },
+      {
+        "slug": "12-anthropic-workflow-patterns",
+        "title": "Anthropic Workflow Patterns",
+        "path": "phases/14-agent-engineering/12-anthropic-workflow-patterns"
+      },
+      {
+        "slug": "13-langgraph-stateful-graphs",
+        "title": "Langgraph Stateful Graphs",
+        "path": "phases/14-agent-engineering/13-langgraph-stateful-graphs"
+      },
+      {
+        "slug": "14-autogen-actor-model",
+        "title": "Autogen Actor Model",
+        "path": "phases/14-agent-engineering/14-autogen-actor-model"
+      },
+      {
+        "slug": "15-crewai-role-based-crews",
+        "title": "Crewai Role Based Crews",
+        "path": "phases/14-agent-engineering/15-crewai-role-based-crews"
+      },
+      {
+        "slug": "16-openai-agents-sdk",
+        "title": "Openai Agents Sdk",
+        "path": "phases/14-agent-engineering/16-openai-agents-sdk"
+      },
+      {
+        "slug": "17-claude-agent-sdk",
+        "title": "Claude Agent Sdk",
+        "path": "phases/14-agent-engineering/17-claude-agent-sdk"
+      },
+      {
+        "slug": "18-agno-and-mastra-runtimes",
+        "title": "Agno And Mastra Runtimes",
+        "path": "phases/14-agent-engineering/18-agno-and-mastra-runtimes"
+      },
+      {
+        "slug": "19-benchmarks-swebench-gaia",
+        "title": "Benchmarks Swebench Gaia",
+        "path": "phases/14-agent-engineering/19-benchmarks-swebench-gaia"
+      },
+      {
+        "slug": "20-benchmarks-webarena-osworld",
+        "title": "Benchmarks Webarena Osworld",
+        "path": "phases/14-agent-engineering/20-benchmarks-webarena-osworld"
+      },
+      {
+        "slug": "21-computer-use-agents",
+        "title": "Computer Use Agents",
+        "path": "phases/14-agent-engineering/21-computer-use-agents"
+      },
+      {
+        "slug": "22-voice-agents-pipecat-livekit",
+        "title": "Voice Agents Pipecat Livekit",
+        "path": "phases/14-agent-engineering/22-voice-agents-pipecat-livekit"
+      },
+      {
+        "slug": "23-otel-genai-conventions",
+        "title": "Otel Genai Conventions",
+        "path": "phases/14-agent-engineering/23-otel-genai-conventions"
+      },
+      {
+        "slug": "24-agent-observability-platforms",
+        "title": "Agent Observability Platforms",
+        "path": "phases/14-agent-engineering/24-agent-observability-platforms"
+      },
+      {
+        "slug": "25-multi-agent-debate",
+        "title": "Multi Agent Debate",
+        "path": "phases/14-agent-engineering/25-multi-agent-debate"
+      },
+      {
+        "slug": "26-failure-modes-agentic",
+        "title": "Failure Modes Agentic",
+        "path": "phases/14-agent-engineering/26-failure-modes-agentic"
+      },
+      {
+        "slug": "27-prompt-injection-defense",
+        "title": "Prompt Injection Defense",
+        "path": "phases/14-agent-engineering/27-prompt-injection-defense"
+      },
+      {
+        "slug": "28-orchestration-patterns",
+        "title": "Orchestration Patterns",
+        "path": "phases/14-agent-engineering/28-orchestration-patterns"
+      },
+      {
+        "slug": "29-production-runtimes",
+        "title": "Production Runtimes",
+        "path": "phases/14-agent-engineering/29-production-runtimes"
+      },
+      {
+        "slug": "30-eval-driven-agent-development",
+        "title": "Eval Driven Agent Development",
+        "path": "phases/14-agent-engineering/30-eval-driven-agent-development"
+      },
+      {
+        "slug": "31-agent-workbench-why-models-fail",
+        "title": "Agent Workbench Why Models Fail",
+        "path": "phases/14-agent-engineering/31-agent-workbench-why-models-fail"
+      },
+      {
+        "slug": "32-minimal-agent-workbench",
+        "title": "Minimal Agent Workbench",
+        "path": "phases/14-agent-engineering/32-minimal-agent-workbench"
+      },
+      {
+        "slug": "33-instructions-as-executable-constraints",
+        "title": "Instructions As Executable Constraints",
+        "path": "phases/14-agent-engineering/33-instructions-as-executable-constraints"
+      },
+      {
+        "slug": "34-repo-memory-and-state",
+        "title": "Repo Memory And State",
+        "path": "phases/14-agent-engineering/34-repo-memory-and-state"
+      },
+      {
+        "slug": "35-initialization-scripts",
+        "title": "Initialization Scripts",
+        "path": "phases/14-agent-engineering/35-initialization-scripts"
+      },
+      {
+        "slug": "36-scope-contracts",
+        "title": "Scope Contracts",
+        "path": "phases/14-agent-engineering/36-scope-contracts"
+      },
+      {
+        "slug": "37-runtime-feedback-loops",
+        "title": "Runtime Feedback Loops",
+        "path": "phases/14-agent-engineering/37-runtime-feedback-loops"
+      },
+      {
+        "slug": "38-verification-gates",
+        "title": "Verification Gates",
+        "path": "phases/14-agent-engineering/38-verification-gates"
+      },
+      {
+        "slug": "39-reviewer-agent",
+        "title": "Reviewer Agent",
+        "path": "phases/14-agent-engineering/39-reviewer-agent"
+      },
+      {
+        "slug": "40-multi-session-handoff",
+        "title": "Multi Session Handoff",
+        "path": "phases/14-agent-engineering/40-multi-session-handoff"
+      },
+      {
+        "slug": "41-workbench-for-real-repos",
+        "title": "Workbench For Real Repos",
+        "path": "phases/14-agent-engineering/41-workbench-for-real-repos"
+      },
+      {
+        "slug": "42-agent-workbench-capstone",
+        "title": "Agent Workbench Capstone",
+        "path": "phases/14-agent-engineering/42-agent-workbench-capstone"
+      },
+      {
+        "slug": "43-frame-the-task-before-code",
+        "title": "Frame The Task Before Code",
+        "path": "phases/14-agent-engineering/43-frame-the-task-before-code"
+      },
+      {
+        "slug": "44-plan-from-evidence",
+        "title": "Plan From Evidence",
+        "path": "phases/14-agent-engineering/44-plan-from-evidence"
+      },
+      {
+        "slug": "45-delegate-with-isolation",
+        "title": "Delegate With Isolation",
+        "path": "phases/14-agent-engineering/45-delegate-with-isolation"
+      },
+      {
+        "slug": "46-turn-feedback-into-system",
+        "title": "Turn Feedback Into System",
+        "path": "phases/14-agent-engineering/46-turn-feedback-into-system"
+      },
+      {
+        "slug": "47-outcomes-before-output",
+        "title": "Outcomes Before Output",
+        "path": "phases/14-agent-engineering/47-outcomes-before-output"
+      },
+      {
+        "slug": "48-discover-the-real-workflow",
+        "title": "Discover The Real Workflow",
+        "path": "phases/14-agent-engineering/48-discover-the-real-workflow"
+      },
+      {
+        "slug": "49-map-assumptions-and-risk",
+        "title": "Map Assumptions And Risk",
+        "path": "phases/14-agent-engineering/49-map-assumptions-and-risk"
+      },
+      {
+        "slug": "50-choose-the-smallest-testable-slice",
+        "title": "Choose The Smallest Testable Slice",
+        "path": "phases/14-agent-engineering/50-choose-the-smallest-testable-slice"
+      },
+      {
+        "slug": "51-write-specifications-that-preserve-judgment",
+        "title": "Write Specifications That Preserve Judgment",
+        "path": "phases/14-agent-engineering/51-write-specifications-that-preserve-judgment"
+      },
+      {
+        "slug": "52-design-success-metrics",
+        "title": "Design Success Metrics",
+        "path": "phases/14-agent-engineering/52-design-success-metrics"
+      },
+      {
+        "slug": "53-prototype-pilot-or-production",
+        "title": "Prototype Pilot Or Production",
+        "path": "phases/14-agent-engineering/53-prototype-pilot-or-production"
+      },
+      {
+        "slug": "54-build-the-feedback-ratchet",
+        "title": "Build The Feedback Ratchet",
+        "path": "phases/14-agent-engineering/54-build-the-feedback-ratchet"
+      }
+    ]
+  },
+  {
+    "id": "15-autonomous-systems",
+    "phaseNum": 15,
+    "title": "Autonomous Systems",
+    "lessonCount": 22,
+    "lessons": [
+      {
+        "slug": "01-long-horizon-agents",
+        "title": "Long Horizon Agents",
+        "path": "phases/15-autonomous-systems/01-long-horizon-agents"
+      },
+      {
+        "slug": "02-star-family-reasoning",
+        "title": "Star Family Reasoning",
+        "path": "phases/15-autonomous-systems/02-star-family-reasoning"
+      },
+      {
+        "slug": "03-alphaevolve-evolutionary-coding",
+        "title": "Alphaevolve Evolutionary Coding",
+        "path": "phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding"
+      },
+      {
+        "slug": "04-darwin-godel-machine",
+        "title": "Darwin Godel Machine",
+        "path": "phases/15-autonomous-systems/04-darwin-godel-machine"
+      },
+      {
+        "slug": "05-ai-scientist-v2",
+        "title": "Ai Scientist V2",
+        "path": "phases/15-autonomous-systems/05-ai-scientist-v2"
+      },
+      {
+        "slug": "06-automated-alignment-research",
+        "title": "Automated Alignment Research",
+        "path": "phases/15-autonomous-systems/06-automated-alignment-research"
+      },
+      {
+        "slug": "07-recursive-self-improvement",
+        "title": "Recursive Self Improvement",
+        "path": "phases/15-autonomous-systems/07-recursive-self-improvement"
+      },
+      {
+        "slug": "08-bounded-self-improvement",
+        "title": "Bounded Self Improvement",
+        "path": "phases/15-autonomous-systems/08-bounded-self-improvement"
+      },
+      {
+        "slug": "09-coding-agent-landscape",
+        "title": "Coding Agent Landscape",
+        "path": "phases/15-autonomous-systems/09-coding-agent-landscape"
+      },
+      {
+        "slug": "10-claude-code-permission-modes",
+        "title": "Claude Code Permission Modes",
+        "path": "phases/15-autonomous-systems/10-claude-code-permission-modes"
+      },
+      {
+        "slug": "11-browser-agents",
+        "title": "Browser Agents",
+        "path": "phases/15-autonomous-systems/11-browser-agents"
+      },
+      {
+        "slug": "12-durable-execution",
+        "title": "Durable Execution",
+        "path": "phases/15-autonomous-systems/12-durable-execution"
+      },
+      {
+        "slug": "13-cost-governors",
+        "title": "Cost Governors",
+        "path": "phases/15-autonomous-systems/13-cost-governors"
+      },
+      {
+        "slug": "14-kill-switches-canaries",
+        "title": "Kill Switches Canaries",
+        "path": "phases/15-autonomous-systems/14-kill-switches-canaries"
+      },
+      {
+        "slug": "15-propose-then-commit",
+        "title": "Propose Then Commit",
+        "path": "phases/15-autonomous-systems/15-propose-then-commit"
+      },
+      {
+        "slug": "16-checkpoints-rollback",
+        "title": "Checkpoints Rollback",
+        "path": "phases/15-autonomous-systems/16-checkpoints-rollback"
+      },
+      {
+        "slug": "17-constitutional-ai",
+        "title": "Constitutional Ai",
+        "path": "phases/15-autonomous-systems/17-constitutional-ai"
+      },
+      {
+        "slug": "18-llama-guard",
+        "title": "Llama Guard",
+        "path": "phases/15-autonomous-systems/18-llama-guard"
+      },
+      {
+        "slug": "19-anthropic-rsp",
+        "title": "Anthropic Rsp",
+        "path": "phases/15-autonomous-systems/19-anthropic-rsp"
+      },
+      {
+        "slug": "20-openai-preparedness-deepmind-fsf",
+        "title": "Openai Preparedness Deepmind Fsf",
+        "path": "phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf"
+      },
+      {
+        "slug": "21-metr-external-evaluation",
+        "title": "Metr External Evaluation",
+        "path": "phases/15-autonomous-systems/21-metr-external-evaluation"
+      },
+      {
+        "slug": "22-cais-caisi-societal-risk",
+        "title": "Cais Caisi Societal Risk",
+        "path": "phases/15-autonomous-systems/22-cais-caisi-societal-risk"
+      }
+    ]
+  },
+  {
+    "id": "16-multi-agent-and-swarms",
+    "phaseNum": 16,
+    "title": "Multi Agent And Swarms",
+    "lessonCount": 25,
+    "lessons": [
+      {
+        "slug": "01-why-multi-agent",
+        "title": "Why Multi Agent",
+        "path": "phases/16-multi-agent-and-swarms/01-why-multi-agent"
+      },
+      {
+        "slug": "02-fipa-acl-heritage",
+        "title": "Fipa Acl Heritage",
+        "path": "phases/16-multi-agent-and-swarms/02-fipa-acl-heritage"
+      },
+      {
+        "slug": "03-communication-protocols",
+        "title": "Communication Protocols",
+        "path": "phases/16-multi-agent-and-swarms/03-communication-protocols"
+      },
+      {
+        "slug": "04-primitive-model",
+        "title": "Primitive Model",
+        "path": "phases/16-multi-agent-and-swarms/04-primitive-model"
+      },
+      {
+        "slug": "05-supervisor-orchestrator-pattern",
+        "title": "Supervisor Orchestrator Pattern",
+        "path": "phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern"
+      },
+      {
+        "slug": "06-hierarchical-architecture",
+        "title": "Hierarchical Architecture",
+        "path": "phases/16-multi-agent-and-swarms/06-hierarchical-architecture"
+      },
+      {
+        "slug": "07-society-of-mind-debate",
+        "title": "Society Of Mind Debate",
+        "path": "phases/16-multi-agent-and-swarms/07-society-of-mind-debate"
+      },
+      {
+        "slug": "08-role-specialization",
+        "title": "Role Specialization",
+        "path": "phases/16-multi-agent-and-swarms/08-role-specialization"
+      },
+      {
+        "slug": "09-parallel-swarm-networks",
+        "title": "Parallel Swarm Networks",
+        "path": "phases/16-multi-agent-and-swarms/09-parallel-swarm-networks"
+      },
+      {
+        "slug": "10-group-chat-speaker-selection",
+        "title": "Group Chat Speaker Selection",
+        "path": "phases/16-multi-agent-and-swarms/10-group-chat-speaker-selection"
+      },
+      {
+        "slug": "11-handoffs-and-routines",
+        "title": "Handoffs And Routines",
+        "path": "phases/16-multi-agent-and-swarms/11-handoffs-and-routines"
+      },
+      {
+        "slug": "12-a2a-protocol",
+        "title": "A2a Protocol",
+        "path": "phases/16-multi-agent-and-swarms/12-a2a-protocol"
+      },
+      {
+        "slug": "13-shared-memory-blackboard",
+        "title": "Shared Memory Blackboard",
+        "path": "phases/16-multi-agent-and-swarms/13-shared-memory-blackboard"
+      },
+      {
+        "slug": "14-consensus-and-bft",
+        "title": "Consensus And Bft",
+        "path": "phases/16-multi-agent-and-swarms/14-consensus-and-bft"
+      },
+      {
+        "slug": "15-voting-debate-topology",
+        "title": "Voting Debate Topology",
+        "path": "phases/16-multi-agent-and-swarms/15-voting-debate-topology"
+      },
+      {
+        "slug": "16-negotiation-bargaining",
+        "title": "Negotiation Bargaining",
+        "path": "phases/16-multi-agent-and-swarms/16-negotiation-bargaining"
+      },
+      {
+        "slug": "17-generative-agents-simulation",
+        "title": "Generative Agents Simulation",
+        "path": "phases/16-multi-agent-and-swarms/17-generative-agents-simulation"
+      },
+      {
+        "slug": "18-theory-of-mind-coordination",
+        "title": "Theory Of Mind Coordination",
+        "path": "phases/16-multi-agent-and-swarms/18-theory-of-mind-coordination"
+      },
+      {
+        "slug": "19-swarm-optimization-pso-aco",
+        "title": "Swarm Optimization Pso Aco",
+        "path": "phases/16-multi-agent-and-swarms/19-swarm-optimization-pso-aco"
+      },
+      {
+        "slug": "20-marl-maddpg-qmix-mappo",
+        "title": "Marl Maddpg Qmix Mappo",
+        "path": "phases/16-multi-agent-and-swarms/20-marl-maddpg-qmix-mappo"
+      },
+      {
+        "slug": "21-agent-economies",
+        "title": "Agent Economies",
+        "path": "phases/16-multi-agent-and-swarms/21-agent-economies"
+      },
+      {
+        "slug": "22-production-scaling-queues-checkpoints",
+        "title": "Production Scaling Queues Checkpoints",
+        "path": "phases/16-multi-agent-and-swarms/22-production-scaling-queues-checkpoints"
+      },
+      {
+        "slug": "23-failure-modes-mast-groupthink",
+        "title": "Failure Modes Mast Groupthink",
+        "path": "phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink"
+      },
+      {
+        "slug": "24-evaluation-coordination-benchmarks",
+        "title": "Evaluation Coordination Benchmarks",
+        "path": "phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks"
+      },
+      {
+        "slug": "25-case-studies-2026-sota",
+        "title": "Case Studies 2026 Sota",
+        "path": "phases/16-multi-agent-and-swarms/25-case-studies-2026-sota"
+      }
+    ]
+  },
+  {
+    "id": "17-infrastructure-and-production",
+    "phaseNum": 17,
+    "title": "Infrastructure And Production",
+    "lessonCount": 28,
+    "lessons": [
+      {
+        "slug": "01-managed-llm-platforms",
+        "title": "Managed Llm Platforms",
+        "path": "phases/17-infrastructure-and-production/01-managed-llm-platforms"
+      },
+      {
+        "slug": "02-inference-platform-economics",
+        "title": "Inference Platform Economics",
+        "path": "phases/17-infrastructure-and-production/02-inference-platform-economics"
+      },
+      {
+        "slug": "03-gpu-autoscaling-kubernetes",
+        "title": "Gpu Autoscaling Kubernetes",
+        "path": "phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes"
+      },
+      {
+        "slug": "04-vllm-serving-internals",
+        "title": "Vllm Serving Internals",
+        "path": "phases/17-infrastructure-and-production/04-vllm-serving-internals"
+      },
+      {
+        "slug": "05-eagle3-speculative-decoding",
+        "title": "Eagle3 Speculative Decoding",
+        "path": "phases/17-infrastructure-and-production/05-eagle3-speculative-decoding"
+      },
+      {
+        "slug": "06-sglang-radixattention",
+        "title": "Sglang Radixattention",
+        "path": "phases/17-infrastructure-and-production/06-sglang-radixattention"
+      },
+      {
+        "slug": "07-tensorrt-llm-blackwell",
+        "title": "Tensorrt Llm Blackwell",
+        "path": "phases/17-infrastructure-and-production/07-tensorrt-llm-blackwell"
+      },
+      {
+        "slug": "08-inference-metrics-goodput",
+        "title": "Inference Metrics Goodput",
+        "path": "phases/17-infrastructure-and-production/08-inference-metrics-goodput"
+      },
+      {
+        "slug": "09-production-quantization",
+        "title": "Production Quantization",
+        "path": "phases/17-infrastructure-and-production/09-production-quantization"
+      },
+      {
+        "slug": "10-cold-start-mitigation",
+        "title": "Cold Start Mitigation",
+        "path": "phases/17-infrastructure-and-production/10-cold-start-mitigation"
+      },
+      {
+        "slug": "11-multi-region-kv-locality",
+        "title": "Multi Region Kv Locality",
+        "path": "phases/17-infrastructure-and-production/11-multi-region-kv-locality"
+      },
+      {
+        "slug": "12-edge-inference",
+        "title": "Edge Inference",
+        "path": "phases/17-infrastructure-and-production/12-edge-inference"
+      },
+      {
+        "slug": "13-llm-observability",
+        "title": "Llm Observability",
+        "path": "phases/17-infrastructure-and-production/13-llm-observability"
+      },
+      {
+        "slug": "14-prompt-semantic-caching",
+        "title": "Prompt Semantic Caching",
+        "path": "phases/17-infrastructure-and-production/14-prompt-semantic-caching"
+      },
+      {
+        "slug": "15-batch-apis",
+        "title": "Batch Apis",
+        "path": "phases/17-infrastructure-and-production/15-batch-apis"
+      },
+      {
+        "slug": "16-model-routing",
+        "title": "Model Routing",
+        "path": "phases/17-infrastructure-and-production/16-model-routing"
+      },
+      {
+        "slug": "17-disaggregated-prefill-decode",
+        "title": "Disaggregated Prefill Decode",
+        "path": "phases/17-infrastructure-and-production/17-disaggregated-prefill-decode"
+      },
+      {
+        "slug": "18-vllm-production-stack-lmcache",
+        "title": "Vllm Production Stack Lmcache",
+        "path": "phases/17-infrastructure-and-production/18-vllm-production-stack-lmcache"
+      },
+      {
+        "slug": "19-ai-gateways",
+        "title": "Ai Gateways",
+        "path": "phases/17-infrastructure-and-production/19-ai-gateways"
+      },
+      {
+        "slug": "20-shadow-canary-progressive",
+        "title": "Shadow Canary Progressive",
+        "path": "phases/17-infrastructure-and-production/20-shadow-canary-progressive"
+      },
+      {
+        "slug": "21-ab-testing-llm-features",
+        "title": "Ab Testing Llm Features",
+        "path": "phases/17-infrastructure-and-production/21-ab-testing-llm-features"
+      },
+      {
+        "slug": "22-load-testing-llm-apis",
+        "title": "Load Testing Llm Apis",
+        "path": "phases/17-infrastructure-and-production/22-load-testing-llm-apis"
+      },
+      {
+        "slug": "23-sre-for-ai",
+        "title": "Sre For Ai",
+        "path": "phases/17-infrastructure-and-production/23-sre-for-ai"
+      },
+      {
+        "slug": "24-chaos-engineering-llm",
+        "title": "Chaos Engineering Llm",
+        "path": "phases/17-infrastructure-and-production/24-chaos-engineering-llm"
+      },
+      {
+        "slug": "25-security-secrets-audit",
+        "title": "Security Secrets Audit",
+        "path": "phases/17-infrastructure-and-production/25-security-secrets-audit"
+      },
+      {
+        "slug": "26-compliance-frameworks",
+        "title": "Compliance Frameworks",
+        "path": "phases/17-infrastructure-and-production/26-compliance-frameworks"
+      },
+      {
+        "slug": "27-finops-llms",
+        "title": "Finops Llms",
+        "path": "phases/17-infrastructure-and-production/27-finops-llms"
+      },
+      {
+        "slug": "28-self-hosted-serving-selection",
+        "title": "Self Hosted Serving Selection",
+        "path": "phases/17-infrastructure-and-production/28-self-hosted-serving-selection"
+      }
+    ]
+  },
+  {
+    "id": "18-ethics-safety-alignment",
+    "phaseNum": 18,
+    "title": "Ethics Safety Alignment",
+    "lessonCount": 30,
+    "lessons": [
+      {
+        "slug": "01-instruction-following-alignment-signal",
+        "title": "Instruction Following Alignment Signal",
+        "path": "phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal"
+      },
+      {
+        "slug": "02-reward-hacking-goodhart",
+        "title": "Reward Hacking Goodhart",
+        "path": "phases/18-ethics-safety-alignment/02-reward-hacking-goodhart"
+      },
+      {
+        "slug": "03-direct-preference-optimization-family",
+        "title": "Direct Preference Optimization Family",
+        "path": "phases/18-ethics-safety-alignment/03-direct-preference-optimization-family"
+      },
+      {
+        "slug": "04-sycophancy-rlhf-amplification",
+        "title": "Sycophancy Rlhf Amplification",
+        "path": "phases/18-ethics-safety-alignment/04-sycophancy-rlhf-amplification"
+      },
+      {
+        "slug": "05-constitutional-ai-rlaif",
+        "title": "Constitutional Ai Rlaif",
+        "path": "phases/18-ethics-safety-alignment/05-constitutional-ai-rlaif"
+      },
+      {
+        "slug": "06-mesa-optimization-deceptive-alignment",
+        "title": "Mesa Optimization Deceptive Alignment",
+        "path": "phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment"
+      },
+      {
+        "slug": "07-sleeper-agents-persistent-deception",
+        "title": "Sleeper Agents Persistent Deception",
+        "path": "phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception"
+      },
+      {
+        "slug": "08-in-context-scheming-frontier-models",
+        "title": "In Context Scheming Frontier Models",
+        "path": "phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models"
+      },
+      {
+        "slug": "09-alignment-faking",
+        "title": "Alignment Faking",
+        "path": "phases/18-ethics-safety-alignment/09-alignment-faking"
+      },
+      {
+        "slug": "10-ai-control-subversion",
+        "title": "Ai Control Subversion",
+        "path": "phases/18-ethics-safety-alignment/10-ai-control-subversion"
+      },
+      {
+        "slug": "11-scalable-oversight-weak-to-strong",
+        "title": "Scalable Oversight Weak To Strong",
+        "path": "phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong"
+      },
+      {
+        "slug": "12-red-teaming-pair-automated-attacks",
+        "title": "Red Teaming Pair Automated Attacks",
+        "path": "phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks"
+      },
+      {
+        "slug": "13-many-shot-jailbreaking",
+        "title": "Many Shot Jailbreaking",
+        "path": "phases/18-ethics-safety-alignment/13-many-shot-jailbreaking"
+      },
+      {
+        "slug": "14-ascii-art-visual-jailbreaks",
+        "title": "Ascii Art Visual Jailbreaks",
+        "path": "phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks"
+      },
+      {
+        "slug": "15-indirect-prompt-injection",
+        "title": "Indirect Prompt Injection",
+        "path": "phases/18-ethics-safety-alignment/15-indirect-prompt-injection"
+      },
+      {
+        "slug": "16-red-team-tooling-garak-llamaguard-pyrit",
+        "title": "Red Team Tooling Garak Llamaguard Pyrit",
+        "path": "phases/18-ethics-safety-alignment/16-red-team-tooling-garak-llamaguard-pyrit"
+      },
+      {
+        "slug": "17-wmdp-dual-use-evaluation",
+        "title": "Wmdp Dual Use Evaluation",
+        "path": "phases/18-ethics-safety-alignment/17-wmdp-dual-use-evaluation"
+      },
+      {
+        "slug": "18-frontier-safety-frameworks-rsp-pf-fsf",
+        "title": "Frontier Safety Frameworks Rsp Pf Fsf",
+        "path": "phases/18-ethics-safety-alignment/18-frontier-safety-frameworks-rsp-pf-fsf"
+      },
+      {
+        "slug": "19-model-welfare-research",
+        "title": "Model Welfare Research",
+        "path": "phases/18-ethics-safety-alignment/19-model-welfare-research"
+      },
+      {
+        "slug": "20-bias-representational-harm",
+        "title": "Bias Representational Harm",
+        "path": "phases/18-ethics-safety-alignment/20-bias-representational-harm"
+      },
+      {
+        "slug": "21-fairness-criteria-group-individual-counterfactual",
+        "title": "Fairness Criteria Group Individual Counterfactual",
+        "path": "phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual"
+      },
+      {
+        "slug": "22-differential-privacy-for-llms",
+        "title": "Differential Privacy For Llms",
+        "path": "phases/18-ethics-safety-alignment/22-differential-privacy-for-llms"
+      },
+      {
+        "slug": "23-watermarking-synthid-stable-signature-c2pa",
+        "title": "Watermarking Synthid Stable Signature C2pa",
+        "path": "phases/18-ethics-safety-alignment/23-watermarking-synthid-stable-signature-c2pa"
+      },
+      {
+        "slug": "24-regulatory-frameworks-eu-us-uk-korea",
+        "title": "Regulatory Frameworks Eu Us Uk Korea",
+        "path": "phases/18-ethics-safety-alignment/24-regulatory-frameworks-eu-us-uk-korea"
+      },
+      {
+        "slug": "25-echoleak-cves-for-ai",
+        "title": "Echoleak Cves For Ai",
+        "path": "phases/18-ethics-safety-alignment/25-echoleak-cves-for-ai"
+      },
+      {
+        "slug": "26-model-system-dataset-cards",
+        "title": "Model System Dataset Cards",
+        "path": "phases/18-ethics-safety-alignment/26-model-system-dataset-cards"
+      },
+      {
+        "slug": "27-data-provenance-training-governance",
+        "title": "Data Provenance Training Governance",
+        "path": "phases/18-ethics-safety-alignment/27-data-provenance-training-governance"
+      },
+      {
+        "slug": "28-alignment-research-ecosystem",
+        "title": "Alignment Research Ecosystem",
+        "path": "phases/18-ethics-safety-alignment/28-alignment-research-ecosystem"
+      },
+      {
+        "slug": "29-moderation-systems-openai-perspective-llamaguard",
+        "title": "Moderation Systems Openai Perspective Llamaguard",
+        "path": "phases/18-ethics-safety-alignment/29-moderation-systems-openai-perspective-llamaguard"
+      },
+      {
+        "slug": "30-dual-use-risk-cyber-bio-chem-nuclear",
+        "title": "Dual Use Risk Cyber Bio Chem Nuclear",
+        "path": "phases/18-ethics-safety-alignment/30-dual-use-risk-cyber-bio-chem-nuclear"
+      }
+    ]
+  },
+  {
+    "id": "19-capstone-projects",
+    "phaseNum": 19,
+    "title": "Capstone Projects",
+    "lessonCount": 85,
+    "lessons": [
+      {
+        "slug": "01-terminal-native-coding-agent",
+        "title": "Terminal Native Coding Agent",
+        "path": "phases/19-capstone-projects/01-terminal-native-coding-agent"
+      },
+      {
+        "slug": "02-rag-over-codebase",
+        "title": "Rag Over Codebase",
+        "path": "phases/19-capstone-projects/02-rag-over-codebase"
+      },
+      {
+        "slug": "03-realtime-voice-assistant",
+        "title": "Realtime Voice Assistant",
+        "path": "phases/19-capstone-projects/03-realtime-voice-assistant"
+      },
+      {
+        "slug": "04-multimodal-document-qa",
+        "title": "Multimodal Document Qa",
+        "path": "phases/19-capstone-projects/04-multimodal-document-qa"
+      },
+      {
+        "slug": "05-autonomous-research-agent",
+        "title": "Autonomous Research Agent",
+        "path": "phases/19-capstone-projects/05-autonomous-research-agent"
+      },
+      {
+        "slug": "06-devops-troubleshooting-agent",
+        "title": "Devops Troubleshooting Agent",
+        "path": "phases/19-capstone-projects/06-devops-troubleshooting-agent"
+      },
+      {
+        "slug": "07-end-to-end-fine-tuning-pipeline",
+        "title": "End To End Fine Tuning Pipeline",
+        "path": "phases/19-capstone-projects/07-end-to-end-fine-tuning-pipeline"
+      },
+      {
+        "slug": "08-production-rag-chatbot",
+        "title": "Production Rag Chatbot",
+        "path": "phases/19-capstone-projects/08-production-rag-chatbot"
+      },
+      {
+        "slug": "09-code-migration-agent",
+        "title": "Code Migration Agent",
+        "path": "phases/19-capstone-projects/09-code-migration-agent"
+      },
+      {
+        "slug": "10-multi-agent-software-team",
+        "title": "Multi Agent Software Team",
+        "path": "phases/19-capstone-projects/10-multi-agent-software-team"
+      },
+      {
+        "slug": "11-llm-observability-dashboard",
+        "title": "Llm Observability Dashboard",
+        "path": "phases/19-capstone-projects/11-llm-observability-dashboard"
+      },
+      {
+        "slug": "12-video-understanding-pipeline",
+        "title": "Video Understanding Pipeline",
+        "path": "phases/19-capstone-projects/12-video-understanding-pipeline"
+      },
+      {
+        "slug": "13-mcp-server-with-registry",
+        "title": "Mcp Server With Registry",
+        "path": "phases/19-capstone-projects/13-mcp-server-with-registry"
+      },
+      {
+        "slug": "14-speculative-decoding-server",
+        "title": "Speculative Decoding Server",
+        "path": "phases/19-capstone-projects/14-speculative-decoding-server"
+      },
+      {
+        "slug": "15-constitutional-safety-harness",
+        "title": "Constitutional Safety Harness",
+        "path": "phases/19-capstone-projects/15-constitutional-safety-harness"
+      },
+      {
+        "slug": "16-github-issue-to-pr-agent",
+        "title": "Github Issue To Pr Agent",
+        "path": "phases/19-capstone-projects/16-github-issue-to-pr-agent"
+      },
+      {
+        "slug": "17-personal-ai-tutor",
+        "title": "Personal Ai Tutor",
+        "path": "phases/19-capstone-projects/17-personal-ai-tutor"
+      },
+      {
+        "slug": "20-agent-harness-loop-contract",
+        "title": "Agent Harness Loop Contract",
+        "path": "phases/19-capstone-projects/20-agent-harness-loop-contract"
+      },
+      {
+        "slug": "21-tool-registry-schema-validation",
+        "title": "Tool Registry Schema Validation",
+        "path": "phases/19-capstone-projects/21-tool-registry-schema-validation"
+      },
+      {
+        "slug": "22-jsonrpc-stdio-transport",
+        "title": "Jsonrpc Stdio Transport",
+        "path": "phases/19-capstone-projects/22-jsonrpc-stdio-transport"
+      },
+      {
+        "slug": "23-function-call-dispatcher",
+        "title": "Function Call Dispatcher",
+        "path": "phases/19-capstone-projects/23-function-call-dispatcher"
+      },
+      {
+        "slug": "24-plan-execute-control-flow",
+        "title": "Plan Execute Control Flow",
+        "path": "phases/19-capstone-projects/24-plan-execute-control-flow"
+      },
+      {
+        "slug": "25-verification-gates-observation-budget",
+        "title": "Verification Gates Observation Budget",
+        "path": "phases/19-capstone-projects/25-verification-gates-observation-budget"
+      },
+      {
+        "slug": "26-sandbox-runner-denylist",
+        "title": "Sandbox Runner Denylist",
+        "path": "phases/19-capstone-projects/26-sandbox-runner-denylist"
+      },
+      {
+        "slug": "27-eval-harness-fixture-tasks",
+        "title": "Eval Harness Fixture Tasks",
+        "path": "phases/19-capstone-projects/27-eval-harness-fixture-tasks"
+      },
+      {
+        "slug": "28-observability-otel-traces",
+        "title": "Observability Otel Traces",
+        "path": "phases/19-capstone-projects/28-observability-otel-traces"
+      },
+      {
+        "slug": "29-end-to-end-coding-task-demo",
+        "title": "End To End Coding Task Demo",
+        "path": "phases/19-capstone-projects/29-end-to-end-coding-task-demo"
+      },
+      {
+        "slug": "30-bpe-tokenizer-from-scratch",
+        "title": "Bpe Tokenizer From Scratch",
+        "path": "phases/19-capstone-projects/30-bpe-tokenizer-from-scratch"
+      },
+      {
+        "slug": "31-tokenized-dataset-sliding-window",
+        "title": "Tokenized Dataset Sliding Window",
+        "path": "phases/19-capstone-projects/31-tokenized-dataset-sliding-window"
+      },
+      {
+        "slug": "32-token-positional-embeddings",
+        "title": "Token Positional Embeddings",
+        "path": "phases/19-capstone-projects/32-token-positional-embeddings"
+      },
+      {
+        "slug": "33-multihead-self-attention",
+        "title": "Multihead Self Attention",
+        "path": "phases/19-capstone-projects/33-multihead-self-attention"
+      },
+      {
+        "slug": "34-transformer-block",
+        "title": "Transformer Block",
+        "path": "phases/19-capstone-projects/34-transformer-block"
+      },
+      {
+        "slug": "35-gpt-model-assembly",
+        "title": "Gpt Model Assembly",
+        "path": "phases/19-capstone-projects/35-gpt-model-assembly"
+      },
+      {
+        "slug": "36-training-loop-eval",
+        "title": "Training Loop Eval",
+        "path": "phases/19-capstone-projects/36-training-loop-eval"
+      },
+      {
+        "slug": "37-loading-pretrained-weights",
+        "title": "Loading Pretrained Weights",
+        "path": "phases/19-capstone-projects/37-loading-pretrained-weights"
+      },
+      {
+        "slug": "38-classifier-finetuning",
+        "title": "Classifier Finetuning",
+        "path": "phases/19-capstone-projects/38-classifier-finetuning"
+      },
+      {
+        "slug": "39-instruction-tuning-sft",
+        "title": "Instruction Tuning Sft",
+        "path": "phases/19-capstone-projects/39-instruction-tuning-sft"
+      },
+      {
+        "slug": "40-dpo-from-scratch",
+        "title": "Dpo From Scratch",
+        "path": "phases/19-capstone-projects/40-dpo-from-scratch"
+      },
+      {
+        "slug": "41-eval-pipeline",
+        "title": "Eval Pipeline",
+        "path": "phases/19-capstone-projects/41-eval-pipeline"
+      },
+      {
+        "slug": "42-large-corpus-downloader",
+        "title": "Large Corpus Downloader",
+        "path": "phases/19-capstone-projects/42-large-corpus-downloader"
+      },
+      {
+        "slug": "43-hdf5-tokenized-corpus",
+        "title": "Hdf5 Tokenized Corpus",
+        "path": "phases/19-capstone-projects/43-hdf5-tokenized-corpus"
+      },
+      {
+        "slug": "44-cosine-lr-warmup",
+        "title": "Cosine Lr Warmup",
+        "path": "phases/19-capstone-projects/44-cosine-lr-warmup"
+      },
+      {
+        "slug": "45-gradient-clipping-amp",
+        "title": "Gradient Clipping Amp",
+        "path": "phases/19-capstone-projects/45-gradient-clipping-amp"
+      },
+      {
+        "slug": "46-gradient-accumulation",
+        "title": "Gradient Accumulation",
+        "path": "phases/19-capstone-projects/46-gradient-accumulation"
+      },
+      {
+        "slug": "47-checkpoint-save-resume",
+        "title": "Checkpoint Save Resume",
+        "path": "phases/19-capstone-projects/47-checkpoint-save-resume"
+      },
+      {
+        "slug": "48-distributed-fsdp-ddp",
+        "title": "Distributed Fsdp Ddp",
+        "path": "phases/19-capstone-projects/48-distributed-fsdp-ddp"
+      },
+      {
+        "slug": "49-lm-eval-harness",
+        "title": "Lm Eval Harness",
+        "path": "phases/19-capstone-projects/49-lm-eval-harness"
+      },
+      {
+        "slug": "50-hypothesis-generator",
+        "title": "Hypothesis Generator",
+        "path": "phases/19-capstone-projects/50-hypothesis-generator"
+      },
+      {
+        "slug": "51-literature-retrieval",
+        "title": "Literature Retrieval",
+        "path": "phases/19-capstone-projects/51-literature-retrieval"
+      },
+      {
+        "slug": "52-experiment-runner",
+        "title": "Experiment Runner",
+        "path": "phases/19-capstone-projects/52-experiment-runner"
+      },
+      {
+        "slug": "53-result-evaluator",
+        "title": "Result Evaluator",
+        "path": "phases/19-capstone-projects/53-result-evaluator"
+      },
+      {
+        "slug": "54-paper-writer",
+        "title": "Paper Writer",
+        "path": "phases/19-capstone-projects/54-paper-writer"
+      },
+      {
+        "slug": "55-critic-loop",
+        "title": "Critic Loop",
+        "path": "phases/19-capstone-projects/55-critic-loop"
+      },
+      {
+        "slug": "56-iteration-scheduler",
+        "title": "Iteration Scheduler",
+        "path": "phases/19-capstone-projects/56-iteration-scheduler"
+      },
+      {
+        "slug": "57-end-to-end-research-demo",
+        "title": "End To End Research Demo",
+        "path": "phases/19-capstone-projects/57-end-to-end-research-demo"
+      },
+      {
+        "slug": "58-vision-encoder-patches",
+        "title": "Vision Encoder Patches",
+        "path": "phases/19-capstone-projects/58-vision-encoder-patches"
+      },
+      {
+        "slug": "59-vit-transformer",
+        "title": "Vit Transformer",
+        "path": "phases/19-capstone-projects/59-vit-transformer"
+      },
+      {
+        "slug": "60-projection-layer-modality-align",
+        "title": "Projection Layer Modality Align",
+        "path": "phases/19-capstone-projects/60-projection-layer-modality-align"
+      },
+      {
+        "slug": "61-cross-attention-fusion",
+        "title": "Cross Attention Fusion",
+        "path": "phases/19-capstone-projects/61-cross-attention-fusion"
+      },
+      {
+        "slug": "62-vision-language-pretraining",
+        "title": "Vision Language Pretraining",
+        "path": "phases/19-capstone-projects/62-vision-language-pretraining"
+      },
+      {
+        "slug": "63-multimodal-eval",
+        "title": "Multimodal Eval",
+        "path": "phases/19-capstone-projects/63-multimodal-eval"
+      },
+      {
+        "slug": "64-chunking-strategies-advanced",
+        "title": "Chunking Strategies Advanced",
+        "path": "phases/19-capstone-projects/64-chunking-strategies-advanced"
+      },
+      {
+        "slug": "65-hybrid-retrieval-bm25-dense",
+        "title": "Hybrid Retrieval Bm25 Dense",
+        "path": "phases/19-capstone-projects/65-hybrid-retrieval-bm25-dense"
+      },
+      {
+        "slug": "66-reranker-cross-encoder",
+        "title": "Reranker Cross Encoder",
+        "path": "phases/19-capstone-projects/66-reranker-cross-encoder"
+      },
+      {
+        "slug": "67-query-rewriting-hyde",
+        "title": "Query Rewriting Hyde",
+        "path": "phases/19-capstone-projects/67-query-rewriting-hyde"
+      },
+      {
+        "slug": "68-rag-eval-precision-recall",
+        "title": "Rag Eval Precision Recall",
+        "path": "phases/19-capstone-projects/68-rag-eval-precision-recall"
+      },
+      {
+        "slug": "69-end-to-end-rag-system",
+        "title": "End To End Rag System",
+        "path": "phases/19-capstone-projects/69-end-to-end-rag-system"
+      },
+      {
+        "slug": "70-task-spec-format",
+        "title": "Task Spec Format",
+        "path": "phases/19-capstone-projects/70-task-spec-format"
+      },
+      {
+        "slug": "71-classical-metrics",
+        "title": "Classical Metrics",
+        "path": "phases/19-capstone-projects/71-classical-metrics"
+      },
+      {
+        "slug": "72-code-exec-metric",
+        "title": "Code Exec Metric",
+        "path": "phases/19-capstone-projects/72-code-exec-metric"
+      },
+      {
+        "slug": "73-perplexity-calibration",
+        "title": "Perplexity Calibration",
+        "path": "phases/19-capstone-projects/73-perplexity-calibration"
+      },
+      {
+        "slug": "74-leaderboard-aggregation",
+        "title": "Leaderboard Aggregation",
+        "path": "phases/19-capstone-projects/74-leaderboard-aggregation"
+      },
+      {
+        "slug": "75-end-to-end-eval-runner",
+        "title": "End To End Eval Runner",
+        "path": "phases/19-capstone-projects/75-end-to-end-eval-runner"
+      },
+      {
+        "slug": "76-collective-ops-from-scratch",
+        "title": "Collective Ops From Scratch",
+        "path": "phases/19-capstone-projects/76-collective-ops-from-scratch"
+      },
+      {
+        "slug": "77-data-parallel-ddp",
+        "title": "Data Parallel Ddp",
+        "path": "phases/19-capstone-projects/77-data-parallel-ddp"
+      },
+      {
+        "slug": "78-zero-parameter-sharding",
+        "title": "Zero Parameter Sharding",
+        "path": "phases/19-capstone-projects/78-zero-parameter-sharding"
+      },
+      {
+        "slug": "79-pipeline-parallel",
+        "title": "Pipeline Parallel",
+        "path": "phases/19-capstone-projects/79-pipeline-parallel"
+      },
+      {
+        "slug": "80-checkpoint-sharded-resume",
+        "title": "Checkpoint Sharded Resume",
+        "path": "phases/19-capstone-projects/80-checkpoint-sharded-resume"
+      },
+      {
+        "slug": "81-end-to-end-distributed-train",
+        "title": "End To End Distributed Train",
+        "path": "phases/19-capstone-projects/81-end-to-end-distributed-train"
+      },
+      {
+        "slug": "82-jailbreak-taxonomy",
+        "title": "Jailbreak Taxonomy",
+        "path": "phases/19-capstone-projects/82-jailbreak-taxonomy"
+      },
+      {
+        "slug": "83-prompt-injection-detector",
+        "title": "Prompt Injection Detector",
+        "path": "phases/19-capstone-projects/83-prompt-injection-detector"
+      },
+      {
+        "slug": "84-refusal-evaluation",
+        "title": "Refusal Evaluation",
+        "path": "phases/19-capstone-projects/84-refusal-evaluation"
+      },
+      {
+        "slug": "85-content-classifier-integration",
+        "title": "Content Classifier Integration",
+        "path": "phases/19-capstone-projects/85-content-classifier-integration"
+      },
+      {
+        "slug": "86-constitutional-rules-engine",
+        "title": "Constitutional Rules Engine",
+        "path": "phases/19-capstone-projects/86-constitutional-rules-engine"
+      },
+      {
+        "slug": "87-end-to-end-safety-gate",
+        "title": "End To End Safety Gate",
+        "path": "phases/19-capstone-projects/87-end-to-end-safety-gate"
+      }
+    ]
+  }
+]
